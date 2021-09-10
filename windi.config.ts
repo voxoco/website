@@ -6,5 +6,7 @@ export default defineConfig({
   attributify: true,
   plugins: [
     require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 })
