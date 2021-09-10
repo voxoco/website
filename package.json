@@ -10,6 +10,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.4.1",
     "@heroicons/vue": "^1.0.4",
+    "@tailwindcss/forms": "^0.3.3",
     "@vueuse/core": "^6.0.0",
     "vue": "^3.2.6",
     "vue-demi": "^0.11.3",
