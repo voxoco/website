@@ -1,4 +1,6 @@
 {
+  "name": "voxo-website",
+  "description": "Public facing website for voxo.co",
   "private": true,
   "scripts": {
     "dev": "vite --port 3333 --open",
@@ -6,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4",
     "@vueuse/core": "^6.0.0",
     "vue": "^3.2.6",
     "vue-demi": "^0.11.3",

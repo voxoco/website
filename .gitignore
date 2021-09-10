@@ -9,3 +9,5 @@ node_modules
 *.log
 components.d.ts
 auto-imports.d.ts
+
+node_modules.nosync
