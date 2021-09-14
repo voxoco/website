@@ -5,8 +5,8 @@ export default defineConfig({
   // https://windicss.org/posts/v30.html#attributify-mode
   attributify: true,
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/aspect-ratio'),
+    require('windicss/plugin/forms'),
+    require('windicss/plugin/typography'),
+    require('windicss/plugin/aspect-ratio'),
   ],
 })

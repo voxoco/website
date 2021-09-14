@@ -6,16 +6,44 @@
         <div class="relative h-full">
           <svg class="absolute right-full transform translate-y-1/3 translate-x-1/4 md:translate-y-1/2 sm:translate-x-1/2 lg:translate-x-full" width="404" height="784" fill="none" viewBox="0 0 404 784">
             <defs>
-              <pattern id="e229dbec-10e9-49ee-8ec3-0286ca089edf" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              <pattern
+                id="e229dbec-10e9-49ee-8ec3-0286ca089edf"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  class="text-gray-200"
+                  fill="currentColor"
+                />
               </pattern>
             </defs>
             <rect width="404" height="784" fill="url(#e229dbec-10e9-49ee-8ec3-0286ca089edf)" />
           </svg>
           <svg class="absolute left-full transform -translate-y-3/4 -translate-x-1/4 sm:-translate-x-1/2 md:-translate-y-1/2 lg:-translate-x-3/4" width="404" height="784" fill="none" viewBox="0 0 404 784">
             <defs>
-              <pattern id="d2a68204-c383-44b1-b99f-42ccff4e5365" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-                <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor" />
+              <pattern
+                id="d2a68204-c383-44b1-b99f-42ccff4e5365"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x="0"
+                  y="0"
+                  width="4"
+                  height="4"
+                  class="text-gray-200"
+                  fill="currentColor"
+                />
               </pattern>
             </defs>
             <rect width="404" height="784" fill="url(#d2a68204-c383-44b1-b99f-42ccff4e5365)" />
@@ -42,7 +70,15 @@
                 </div>
               </div>
               <div class="hidden md:flex md:space-x-10">
-                <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-medium text-gray-500 hover:text-gray-900">{{ item.name }}</a>
+                <router-link
+                  v-for="(item, index) in navigation"
+                  :key="index"
+                  :to="item.href"
+                >
+                  <span class="font-medium text-gray-500 hover:text-gray-900">
+                    {{ item.name }}
+                  </span>
+                </router-link>
               </div>
               <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
                 <span class="inline-flex rounded-md shadow">
@@ -54,7 +90,14 @@
             </nav>
           </div>
 
-          <transition enter-active-class="duration-150 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
+          <transition
+            enter-active-class="duration-150 ease-out"
+            enter-from-class="opacity-0 scale-95"
+            enter-to-class="opacity-100 scale-100"
+            leave-active-class="duration-100 ease-in"
+            leave-from-class="opacity-100 scale-100"
+            leave-to-class="opacity-0 scale-95"
+          >
             <PopoverPanel focus class="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
               <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
                 <div class="px-5 pt-4 flex items-center justify-between">
@@ -104,7 +147,9 @@
     </div>
     <div class="bg-gray-800">
       <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <h2 class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">Trusted by over 26,000 forward-thinking companies</h2>
+        <h2 class="text-center text-gray-400 text-sm font-semibold uppercase tracking-wide">
+          Trusted by over 26,000 forward-thinking companies
+        </h2>
         <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
           <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
             <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg" alt="Tuple" />
