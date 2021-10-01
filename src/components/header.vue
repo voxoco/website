@@ -15,22 +15,34 @@
           </PopoverButton>
         </div>
         <PopoverGroup as="nav" class="hidden lg:flex space-x-10">
-          <router-link to="/" class="text-base font-normal text-voxo-gray hover:text-voxo-gray-dark">
+<!--          <router-link
+            to="/"
+            class="text-base p-1 block font-semibold"
+            :class="$route.name === 'index' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+          >
             Home
-          </router-link>
+          </router-link>-->
 
-          <router-link to="/product" class="text-base font-normal text-voxo-gray hover:text-voxo-gray-dark">
+          <router-link
+            to="/product"
+            class="text-base p-1 block"
+            :class="$route.name === 'product' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+          >
             Product
           </router-link>
 
-          <router-link to="/team" class="text-base font-normal text-voxo-gray hover:text-voxo-gray-dark">
+          <router-link
+            to="/team"
+            class="text-base p-1 block"
+            :class="$route.name === 'team' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+          >
             Team
           </router-link>
 
-          <Popover v-slot="{ open }" class="relative">
-            <PopoverButton :class="[open ? 'text-voxo-gray-dark' : 'text-voxo-gray', 'group bg-white font-normal rounded-md inline-flex items-center text-base hover:text-voxo-gray-dark focus:outline-none']">
+          <Popover v-slot="{ open }" class="relative p-1">
+            <PopoverButton :class="[open ? '' : 'text-voxo-gray font-normal', 'group bg-white rounded-md inline-flex items-center text-base focus:outline-none']">
               <span>Locations</span>
-              <ChevronDownIcon :class="[open ? 'text-voxo-gray-dark' : 'text-voxo-gray', 'ml-2 h-5 w-5 font-normal group-hover:text-gray-500']" aria-hidden="true" />
+              <ChevronDownIcon :class="[open ? '' : 'text-voxo-gray font-normal', 'ml-2 h-5 w-5']" aria-hidden="true" />
             </PopoverButton>
 
             <transition
@@ -41,7 +53,7 @@
               leave-from-class="opacity-100 translate-y-0"
               leave-to-class="opacity-0 translate-y-1"
             >
-              <PopoverPanel class="absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+              <PopoverPanel class="absolute z-30 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                     <a v-for="item in locations" :key="item.name" :href="item.href" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -69,11 +81,19 @@
             </transition>
           </Popover>
 
-          <router-link to="/contact" class="text-base font-normal text-voxo-gray hover:text-voxo-gray-dark">
+          <router-link
+            to="/contact"
+            class="text-base p-1 block"
+            :class="$route.name === 'contact' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+          >
             Contact
           </router-link>
 
-          <router-link to="/blog" class="text-base font-normal text-voxo-gray hover:text-voxo-gray-dark">
+          <router-link
+            to="/blog"
+            class="text-base p-1 block"
+            :class="$route.name === 'blog' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+          >
             Blog
           </router-link>
         </PopoverGroup>
@@ -93,15 +113,15 @@
       leave-from-class="opacity-100 scale-100"
       leave-to-class="opacity-0 scale-95"
     >
-      <PopoverPanel focus class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden">
+      <PopoverPanel focus class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-30">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
               <div>
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow" />
+                <img class="h-8 w-auto" src="/public/assets/images/header-logo.svg" alt="VOXO" />
               </div>
               <div class="-mr-2">
-                <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100">
                   <span class="sr-only">Close menu</span>
                   <XIcon class="h-6 w-6" aria-hidden="true" />
                 </PopoverButton>
@@ -220,11 +240,6 @@ const resources = [
   },
   { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
 ]
-const recentPosts = [
-  { id: 1, name: 'Boost your conversion rate', href: '#' },
-  { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-  { id: 3, name: 'Improve your customer experience', href: '#' },
-]
 
 export default {
   components: {
@@ -241,8 +256,10 @@ export default {
       locations,
       callsToAction,
       resources,
-      recentPosts,
     }
+  },
+  mounted() {
+    console.log(this.$route)
   },
 }
 </script>

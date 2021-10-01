@@ -1,5 +1,5 @@
 import { defineConfig } from 'windicss/helpers'
-import colors from 'windicss/colors';
+import colors from 'windicss/colors'
 
 export default defineConfig({
   darkMode: false,
@@ -12,8 +12,15 @@ export default defineConfig({
         DEFAULT: '#F92120',
       },
       'voxo-gray': {
-        DEFAULT: '#33444D',
-        dark: '#001520',
+        'DEFAULT': '#33444D',
+        'dark': '#001520',
+        'header': '#1A2D37',
+        'light': '#F7F8FB',
+        'border': '#C4C4C4',
+        'grad-dark': '#ECEEF4',
+        'hr': '#4B5563',
+        'footer-text': '#A6A7AB',
+        'footer-header': '#ECEEF4',
       },
     },
     screens: {
