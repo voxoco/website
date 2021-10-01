@@ -234,83 +234,83 @@
 const callCenterFeatures = [
   {
     name: 'Real-time Analytics',
-    iconPath: '/public/assets/images/icons/icon-bolt.svg',
+    iconPath: '/assets/images/icons/icon-bolt.svg',
   },
   {
     name: 'Time Management',
-    iconPath: '/public/assets/images/icons/icon-check-green.svg',
+    iconPath: '/assets/images/icons/icon-check-green.svg',
   },
   {
     name: 'Simple and Attractive UI',
-    iconPath: '/public/assets/images/icons/icon-ui.svg',
+    iconPath: '/assets/images/icons/icon-ui.svg',
   },
   {
     name: 'Hourly Reporting',
-    iconPath: '/public/assets/images/icons/icon-clock.svg',
+    iconPath: '/assets/images/icons/icon-clock.svg',
   },
   {
     name: 'Advanced Call Routing',
-    iconPath: '/public/assets/images/icons/icon-routing.svg',
+    iconPath: '/assets/images/icons/icon-routing.svg',
   },
   {
     name: 'Like, a lot more...',
-    iconPath: '/public/assets/images/icons/icon-plus.svg',
+    iconPath: '/assets/images/icons/icon-plus.svg',
   },
 ]
 const pbxFeatures = [
   {
     name: 'Desktop App Extension',
-    iconPath: '/public/assets/images/icons/icon-desktop.svg',
+    iconPath: '/assets/images/icons/icon-desktop.svg',
     description: 'A phone without the phone',
   },
   {
     name: 'Virtual Receptionist',
-    iconPath: '/public/assets/images/icons/icon-ivr.svg',
+    iconPath: '/assets/images/icons/icon-ivr.svg',
     description: 'Thanks for calling! Press “1” for sales, Press “2” for support…',
   },
   {
     name: 'Call Groups',
-    iconPath: '/public/assets/images/icons/icon-call-groups.svg',
+    iconPath: '/assets/images/icons/icon-call-groups.svg',
     description: 'Let me see if I can reach someone, or I can send this call to everyone!',
   },
   {
     name: 'Voicemail to Email',
-    iconPath: '/public/assets/images/icons/icon-email.svg',
+    iconPath: '/assets/images/icons/icon-email.svg',
     description: 'Delete, delete, delete, oh wait, I need that one.',
   },
   {
     name: 'Conference Bridges',
-    iconPath: '/public/assets/images/icons/icon-conf-bridge.svg',
+    iconPath: '/assets/images/icons/icon-conf-bridge.svg',
     description: 'One number to rule... I mean, connect, them all.',
   },
   {
     name: 'Feature Codes',
-    iconPath: '/public/assets/images/icons/icon-features.svg',
+    iconPath: '/assets/images/icons/icon-features.svg',
     description: 'Dial *#47 to turn on the lights.',
   },
   {
     name: 'Scalable Billing',
-    iconPath: '/public/assets/images/icons/icon-billing.svg',
+    iconPath: '/assets/images/icons/icon-billing.svg',
     description: 'I need 60 phones in June, but only 55 in July.',
   },
   {
     name: 'Blacklisting',
-    iconPath: '/public/assets/images/icons/icon-blacklist.svg',
+    iconPath: '/assets/images/icons/icon-blacklist.svg',
     description: 'Mr. Reddington, I no longer want to receive your calls.',
   },
   {
     name: 'Number Portability',
-    iconPath: '/public/assets/images/icons/icon-porting.svg',
+    iconPath: '/assets/images/icons/icon-porting.svg',
     description: 'That’s right you can port your own number. Who else does that?',
   },
   {
     name: 'Personal Support',
-    iconPath: '/public/assets/images/icons/icon-voxo.svg',
+    iconPath: '/assets/images/icons/icon-voxo.svg',
     description: 'You talk to a real live person, that works for VOXO, but they can only communicate in gifs... Just kidding.',
   },
   {
     name: 'Work Extension Texting',
-    iconPath: '/public/assets/images/icons/icon-texting.svg',
+    iconPath: '/assets/images/icons/icon-texting.svg',
     description: 'Hey I just met you, and this is crazy, but can I text you from my work number maybe?',
   },
 ]
