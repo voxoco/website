@@ -1,13 +1,60 @@
+/*Fonts*/
+
+@font-face {
+  font-family: 'eina-bold';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Eina01_Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'eina-reg';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Eina01_Regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'eina-semibold';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Eina01_SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'poppins-reg';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'poppins-light';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Poppins-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'poppins-semibold';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Poppins-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Poppins-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'poppins-extrabold';
+  src: url('https://global-app.s3.amazonaws.com/omnia-assets/fonts/Poppins-ExtraBold.woff2') format('woff2');
+}
+
 html,
 body,
 #app {
   height: 100%;
   margin: 0;
   padding: 0;
+  @apply font-poppins text-voxo-gray text-base leading-tight;
 }
 
-html.dark {
-  background: #121212;
+h1{
+  @apply font-einabold;
+}
+
+h2{
+  @apply font-einasemibold;
 }
 
 .btn {

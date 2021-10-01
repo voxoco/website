@@ -15,7 +15,7 @@
           </PopoverButton>
         </div>
         <PopoverGroup as="nav" class="hidden lg:flex space-x-10">
-<!--          <router-link
+          <!--          <router-link
             to="/"
             class="text-base p-1 block font-semibold"
             :class="$route.name === 'index' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
@@ -26,7 +26,7 @@
           <router-link
             to="/product"
             class="text-base p-1 block"
-            :class="$route.name === 'product' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+            :class="$route.name === 'product' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
           >
             Product
           </router-link>
@@ -34,15 +34,15 @@
           <router-link
             to="/team"
             class="text-base p-1 block"
-            :class="$route.name === 'team' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+            :class="$route.name === 'team' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
           >
             Team
           </router-link>
 
-          <Popover v-slot="{ open }" class="relative p-1">
-            <PopoverButton :class="[open ? '' : 'text-voxo-gray font-normal', 'group bg-white rounded-md inline-flex items-center text-base focus:outline-none']">
+          <Popover v-slot="{ open }" class="relative">
+            <PopoverButton ref="flyoutMenu" :class="[open ? '' : '', 'group bg-white rounded-md inline-flex items-center text-base focus:outline-none font-eina p-1']">
               <span>Locations</span>
-              <ChevronDownIcon :class="[open ? '' : 'text-voxo-gray font-normal', 'ml-2 h-5 w-5']" aria-hidden="true" />
+              <ChevronDownIcon :class="[open ? '' : '', 'ml-2 h-4 w-4 font-eina']" aria-hidden="true" />
             </PopoverButton>
 
             <transition
@@ -53,28 +53,28 @@
               leave-from-class="opacity-100 translate-y-0"
               leave-to-class="opacity-0 translate-y-1"
             >
-              <PopoverPanel class="absolute z-30 -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+              <PopoverPanel ref="mobileMenu" class="absolute z-30 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0 lg:max-w-3xl">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                  <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                    <a v-for="item in locations" :key="item.name" :href="item.href" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                      <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                  <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                    <router-link
+                      v-for="item in locations"
+                      :key="item.name"
+                      :to="item.href"
+                      class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
+                      @click="hideFlyoutMenu"
+                    >
+                      <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md text-white sm:h-12 sm:w-12">
+                        <img :src="item.icon" :alt="item.name" />
+                      </div>
                       <div class="ml-4">
-                        <p class="text-base font-medium text-gray-900">
+                        <p class="text-base font-einasemibold">
                           {{ item.name }}
                         </p>
                         <p class="mt-1 text-sm text-gray-500">
                           {{ item.description }}
                         </p>
                       </div>
-                    </a>
-                  </div>
-                  <div class="px-5 py-5 bg-gray-50 space-y-6 sm:flex sm:space-y-0 sm:space-x-10 sm:px-8">
-                    <div v-for="item in callsToAction" :key="item.name" class="flow-root">
-                      <a :href="item.href" class="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">
-                        <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                        <span class="ml-3">{{ item.name }}</span>
-                      </a>
-                    </div>
+                    </router-link>
                   </div>
                 </div>
               </PopoverPanel>
@@ -84,7 +84,7 @@
           <router-link
             to="/contact"
             class="text-base p-1 block"
-            :class="$route.name === 'contact' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+            :class="$route.name === 'contact' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
           >
             Contact
           </router-link>
@@ -92,13 +92,13 @@
           <router-link
             to="/blog"
             class="text-base p-1 block"
-            :class="$route.name === 'blog' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+            :class="$route.name === 'blog' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
           >
             Blog
           </router-link>
         </PopoverGroup>
         <div class="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0">
-          <a href="https://app.voxo.co" target="_blank" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border-2 border-voxo-red rounded-md text-base font-medium text-white bg-transparent text-voxo-red">
+          <a href="https://app.voxo.co" target="_blank" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border-2 border-voxo-red rounded-md text-base font-einasemibold bg-transparent text-voxo-red">
             Login
           </a>
         </div>
@@ -113,7 +113,7 @@
       leave-from-class="opacity-100 scale-100"
       leave-to-class="opacity-0 scale-95"
     >
-      <PopoverPanel focus class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right lg:hidden z-30">
+      <PopoverPanel focus class="absolute top-0 left-1 inset-x-0 pl-2 pt-2 pr-5 transition transform origin-top-right lg:hidden z-30">
         <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
           <div class="pt-5 pb-6 px-5">
             <div class="flex items-center justify-between">
@@ -121,47 +121,73 @@
                 <img class="h-8 w-auto" src="/public/assets/images/header-logo.svg" alt="VOXO" />
               </div>
               <div class="-mr-2">
-                <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100">
+                <PopoverButton ref="menuClose" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100">
                   <span class="sr-only">Close menu</span>
                   <XIcon class="h-6 w-6" aria-hidden="true" />
                 </PopoverButton>
               </div>
             </div>
             <div class="mt-6">
-              <nav class="grid gap-y-8">
-                <a v-for="item in locations" :key="item.name" :href="item.href" class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
-                  <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
-                  <span class="ml-3 text-base font-medium text-gray-900">
-                    {{ item.name }}
-                  </span>
-                </a>
+              <nav class="grid gap-y-2">
+                <!--                <router-link
+                  to="/"
+                  class="text-base p-1 block font-semibold"
+                  :class="$route.name === 'index' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+                >
+                  Home
+                </router-link>-->
+
+                <router-link
+                  to="/product"
+                  class="text-base p-1 block"
+                  :class="$route.name === 'product' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
+                  @click="hideMenu"
+                >
+                  Product
+                </router-link>
+
+                <router-link
+                  to="/team"
+                  class="text-base p-1 block"
+                  :class="$route.name === 'team' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
+                  @click="hideMenu"
+                >
+                  Team
+                </router-link>
+
+                <router-link
+                  to="/contact"
+                  class="text-base p-1 block"
+                  :class="$route.name === 'contact' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
+                  @click="hideMenu"
+                >
+                  Contact
+                </router-link>
+
+                <router-link
+                  to="/blog"
+                  class="text-base p-1 block"
+                  :class="$route.name === 'blog' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
+                  @click="hideMenu"
+                >
+                  Blog
+                </router-link>
               </nav>
             </div>
           </div>
           <div class="py-6 px-5 space-y-6">
-            <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-              <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                Pricing
-              </a>
-
-              <a href="#" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                Docs
-              </a>
-              <a v-for="item in resources" :key="item.name" :href="item.href" class="text-base font-medium text-gray-900 hover:text-gray-700">
-                {{ item.name }}
-              </a>
+            <div class="grid grid-cols-2 gap-y-1 gap-x-8">
+              <router-link v-for="item in locations" :key="item.name" :to="item.href" class="text-base flex items-center" @click="hideMenu">
+                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md text-white sm:h-12 sm:w-12">
+                  <img :src="item.icon" :alt="item.name" />
+                </div>
+                <span>{{ item.name }}</span>
+              </router-link>
             </div>
             <div>
-              <a href="#" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                Sign up
+              <a href="https://app.voxo.co" target="" class="w-full flex items-center justify-center px-4 py-2 border-2 border-voxo-red rounded-md shadow-sm text-voxo-red font-einasemibold">
+                Login
               </a>
-              <p class="mt-6 text-center text-base font-medium text-gray-500">
-                Existing customer?
-                {{ ' ' }}
-                <a href="#" class="text-indigo-600 hover:text-indigo-500">
-                  Sign in
-                </a>
-              </p>
             </div>
           </div>
         </div>
@@ -173,72 +199,48 @@
 <script>
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
 import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorClickIcon,
   MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  SupportIcon,
-  ViewGridIcon,
   XIcon,
 } from '@heroicons/vue/outline'
 import { ChevronDownIcon } from '@heroicons/vue/solid'
 
 const locations = [
   {
-    name: 'Location 1',
-    description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
-    icon: ChartBarIcon,
+    name: 'Hattiesburg, MS',
+    description: 'We are in Hattiesburg at 26 Town Center Square',
+    href: '/hattiesburg',
+    icon: '/assets/images/icons/flag-hattiesburg.svg',
   },
   {
-    name: 'Engagement',
-    description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
-    icon: CursorClickIcon,
-  },
-  { name: 'Security', description: 'Your customers\' data will be safe and secure.', href: '#', icon: ShieldCheckIcon },
-  {
-    name: 'Integrations',
-    description: 'Connect with third-party tools that you\'re already using.',
-    href: '#',
-    icon: ViewGridIcon,
+    name: 'The Woodlands, TX',
+    description: 'We are in The Woodlands at 9595 Six Pines Dr. Ste. 8210',
+    href: '/texas',
+    icon: '/assets/images/icons/flag-tx.svg',
   },
   {
-    name: 'Automations',
-    description: 'Build strategic funnels that will drive your customers to convert',
-    href: '#',
-    icon: RefreshIcon,
-  },
-]
-const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'Contact Sales', href: '#', icon: PhoneIcon },
-]
-const resources = [
-  {
-    name: 'Help Center',
-    description: 'Get all of your questions answered in our forums or contact support.',
-    href: '#',
-    icon: SupportIcon,
+    name: 'Mobile, AL',
+    description: 'We are at 30s Congress St. in Mobile',
+    href: 'mobile',
+    icon: '/assets/images/icons/flag-mobile.svg',
   },
   {
-    name: 'Guides',
-    description: 'Learn how to maximize our platform to get the most out of it.',
-    href: '#',
-    icon: BookmarkAltIcon,
+    name: 'Nashville, TN',
+    description: 'Come see us in Nashville at 4100 Smith School Rd.',
+    href: '/nashville',
+    icon: '/assets/images/icons/flag-nashville.svg',
   },
   {
-    name: 'Events',
-    description: 'See what meet-ups and other events we might be planning near you.',
-    href: '#',
-    icon: CalendarIcon,
+    name: 'Lancaster, PA',
+    description: 'Come see us in Lancaster at 800 New Holland Avenue',
+    href: '/lancaster',
+    icon: '/assets/images/icons/flag-pa.svg',
   },
-  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
+  {
+    name: 'Milwaukee, WI',
+    description: 'We are at 211 N Rochester St. in Mukwonago',
+    href: '/milwaukee',
+    icon: '/assets/images/icons/flag-wi.svg',
+  },
 ]
 
 export default {
@@ -254,12 +256,15 @@ export default {
   setup() {
     return {
       locations,
-      callsToAction,
-      resources,
     }
   },
-  mounted() {
-    console.log(this.$route)
+  methods: {
+    hideMenu() {
+      this.$refs.menuClose.handleClick()
+    },
+    hideFlyoutMenu() {
+      this.$refs.flyoutMenu.handleClick()
+    },
   },
 }
 </script>

@@ -3,7 +3,7 @@
   "description": "Public facing website for voxo.co",
   "private": true,
   "scripts": {
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333 --open --host",
     "build": "cross-env NODE_ENV=production vite build",
     "preview": "vite preview"
   },

@@ -36,7 +36,7 @@
               <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl">
                 Call Center
               </h1>
-              <p class="text-lg text-voxo-gray py-8">
+              <p class="py-8">
                 Meet the ultimate Call Center where it’s all about the analytics. Get real-time data to make key business
                 decisions and find out exactly how your outbound and inbound call flow is working for your organization.
                 Set up your call flow with multiple queue strategies to engage your customer base more efficiently. See
@@ -44,9 +44,9 @@
                 displays the behavior you’re looking for at a glance
               </p>
               <div class="pt-4">
-                <h5 class="text-2xl font-semibold">
+                <h2 class="text-2xl">
                   Call Center Features
-                </h5>
+                </h2>
                 <div class="py-6">
                   <dl class="space-y-2 sm:space-y-1 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-2">
                     <div v-for="feature in callCenterFeatures" :key="feature.name" class="relative">
@@ -82,12 +82,12 @@
                 <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl">
                   Mobility
                 </h1>
-                <p class="mt-4 text-lg text-voxo-gray">
+                <p class="mt-4">
                   Designed with the end-user in mind, VOXO’s mobile app gives every user the on-the-go functionality that’s
                   needed in today’s business environment. Make and receive calls from your desk extension, text, and even
                   listen to voicemail all from the phone in your pocket.
                 </p>
-                <p class="mt-4 text-lg text-voxo-gray">
+                <p class="mt-4">
                   VOXO’s integration with your phone’s native dialer will help you easily see whether a call is for business
                   or personal. The best part? Our mobile app is included with every seat purchase at no additional cost,
                   making communicating… simple.
@@ -109,10 +109,10 @@
   <div class="relative bg-opacity-0 pb-10 lg:pb-24">
     <div class="max-w-xl lg:max-w-7xl lg:px-8 mx-auto px-4 sm:px-6">
       <img class="mx-auto" src="/public/assets/images/icons/icon-pbx.svg" alt="PBX Features" />
-      <h2 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
+      <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
         PBX Features
-      </h2>
-      <p class="max-w-4xl mx-auto text-center text-lg text-gray-500">
+      </h1>
+      <p class="max-w-4xl mx-auto text-center">
         Not all VoIP Providers are alike. We have built our PBX from the ground up, and are constantly innovating to reshape
         the telecom industry. With our fully featured communications platform you’ll be able to manage your organization’s call
         flow and communicating will be easy, reliable, and save you a ton of money. Built in redundancy, simple billing, and
@@ -130,9 +130,9 @@
           <div class="h-12 flex align-center justify-center">
             <img class="mx-auto" :src="feature.iconPath" :alt="feature.name" />
           </div>
-          <div class="font-semibold text-xl pt-7 pb-1">
+          <h2 class="text-xl pt-7 pb-1">
             {{ feature.name }}
-          </div>
+          </h2>
           <div class="text-sm text-voxo-gray">
             {{ feature.description }}
           </div>
@@ -149,10 +149,10 @@
           <img src="/public/assets/images/icons/icon-desktop-app.svg" alt="Desktop App" />
         </div>
         <div>
-          <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl">
+          <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl">
             Desktop App
           </h1>
-          <p class="text-lg text-voxo-gray py-8">
+          <p class="py-8">
             Don’t want to clutter the desk? There’s no need for a physical phone then. Make your calls straight from your
             computer without trading call quality. Our Omnia desktop app is easy to use, simple to navigate, and can be
             accessed anywhere there’s an internet connection. We call it Omnia, because it contains everything you need
@@ -174,7 +174,7 @@
       <h2 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
         SIP Trunks
       </h2>
-      <p class="max-w-4xl mx-auto text-center text-lg text-gray-500">
+      <p class="max-w-4xl mx-auto text-center">
         Some of our clients have recently invested in an On-Prem PBX, but still want the support, infrastructure, and personal
         relationship VOXO brings to the telecom experience. No worries! We provide low cost SIP trunks that provide dial tone
         to your On-Prem PBX, installed without hassle. You can still manage your numbers and basic call flow from our portal too!
@@ -192,10 +192,10 @@
             <img src="/public/assets/images/icons/icon-custom-dev.svg" alt="Desktop App" />
           </div>
           <div>
-            <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl">
+            <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl">
               Custom Development
             </h1>
-            <p class="text-lg text-voxo-gray py-8">
+            <p class="py-8">
               Need more customization? Does that plug-and-play integration not give you exactly what you need to make your
               system work for your business? Our entire platform was built in house and with enterprise customers in mind.
               This means that you’re talking to the source when needing a custom solution developed. There’s no in between.
@@ -216,10 +216,10 @@
   <div class="mt-12">
     <div class="px-4 lg:mx-auto lg:max-w-7xl lg:px-8 pt-12 pb-24">
       <img class="mx-auto" src="/public/assets/images/icons/icon-infrastructure.svg" alt="PBX Features" />
-      <h2 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
+      <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
         Our Infrastructure
-      </h2>
-      <p class="max-w-4xl mx-auto text-center text-lg text-gray-500">
+      </h1>
+      <p class="max-w-4xl mx-auto text-center">
         Some of our clients have recently invested in an On-Prem PBX, but still want the support, infrastructure, and personal
         relationship VOXO brings to the telecom experience. No worries! We provide low cost SIP trunks that provide dial tone
         to your On-Prem PBX, installed without hassle. You can still manage your numbers and basic call flow from our portal too!

@@ -10,9 +10,9 @@
         <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
                 Solutions
-              </h3>
+              </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <a :href="item.href" class="text-base text-voxo-gray-footer-text">
@@ -22,9 +22,9 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h3 class="text-sm font-semibold text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
                 Support
-              </h3>
+              </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a :href="item.href" class="text-base text-voxo-gray-footer-text">
@@ -36,9 +36,9 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
                 Company
-              </h3>
+              </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
                   <a :href="item.href" class="text-base text-voxo-gray-footer-text">
@@ -48,9 +48,9 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h3 class="text-sm font-semibold text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
                 Legal
-              </h3>
+              </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
                   <a :href="item.href" class="text-base text-voxo-gray-footer-text">
