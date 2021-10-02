@@ -176,12 +176,12 @@
             </div>
           </div>
           <div class="py-6 px-5 space-y-6">
-            <div class="grid grid-cols-2 gap-y-1 gap-x-8">
+            <div class="grid grid-cols-2 gap-y-3 gap-x-8">
               <router-link v-for="item in locations" :key="item.name" :to="item.href" class="text-base flex items-center" @click="hideMenu">
-                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md text-white sm:h-12 sm:w-12">
+                <div class="flex-shrink-0 flex items-center justify-center h-8 w-8 rounded-md text-white sm:h-12 sm:w-12">
                   <img :src="item.icon" :alt="item.name" />
                 </div>
-                <span>{{ item.name }}</span>
+                <span class="px-2">{{ item.name }}</span>
               </router-link>
             </div>
             <div>
@@ -207,37 +207,37 @@ import { ChevronDownIcon } from '@heroicons/vue/solid'
 const locations = [
   {
     name: 'Hattiesburg, MS',
-    description: 'We are in Hattiesburg at 26 Town Center Square',
+    description: 'We are at 7127 US-98 Suite 40',
     href: '/hattiesburg',
     icon: '/assets/images/icons/flag-hattiesburg.svg',
   },
   {
-    name: 'The Woodlands, TX',
-    description: 'We are in The Woodlands at 9595 Six Pines Dr. Ste. 8210',
+    name: 'Houston, TX',
+    description: 'We are at 9595 Six Pines Dr. Suite 8210',
     href: '/texas',
     icon: '/assets/images/icons/flag-tx.svg',
   },
   {
     name: 'Mobile, AL',
-    description: 'We are at 30s Congress St. in Mobile',
+    description: 'We are at 30s Congress Street',
     href: 'mobile',
     icon: '/assets/images/icons/flag-mobile.svg',
   },
   {
     name: 'Nashville, TN',
-    description: 'Come see us in Nashville at 4100 Smith School Rd.',
+    description: 'We are at 4100 Smith School Rd.',
     href: '/nashville',
     icon: '/assets/images/icons/flag-nashville.svg',
   },
   {
     name: 'Lancaster, PA',
-    description: 'Come see us in Lancaster at 800 New Holland Avenue',
+    description: 'We are at 800 New Holland Avenue',
     href: '/lancaster',
     icon: '/assets/images/icons/flag-pa.svg',
   },
   {
     name: 'Milwaukee, WI',
-    description: 'We are at 211 N Rochester St. in Mukwonago',
+    description: 'We are at 211 N Rochester Street',
     href: '/milwaukee',
     icon: '/assets/images/icons/flag-wi.svg',
   },

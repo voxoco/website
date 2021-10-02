@@ -161,7 +161,7 @@
         </div>
       </div>
       <div class="w-3/4 mx-auto lg:mt-0 lg:flex-1">
-        <img class="mx-auto lg:left-0 lg:w-auto lg:-mr-12" src="/public/assets/images/omnia-devices.png" alt="OMNIA preview" />
+        <img class="mx-auto lg:left-0 lg:w-auto lg:-mr-12" src="/public/assets/images/desktop-app.png" alt="OMNIA preview" />
       </div>
     </div>
   </div>
