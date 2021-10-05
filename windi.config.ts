@@ -26,6 +26,9 @@ export default defineConfig({
       'google-blue': {
         DEFAULT: '#1782FF',
       },
+      'voxo-purple': {
+        DEFAULT: '#8459FF',
+      },
     },
     fontFamily: {
       eina: ['eina-reg', 'sans-serif'],
