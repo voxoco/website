@@ -17,7 +17,7 @@
 
       <div class="relative max-w-7xl mx-auto py-10">
         <div class="max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          <div v-for="post in posts" :key="post.title" class="flex flex-col overflow-hidden" @click="viewArticle(post)">
+          <div v-for="post in posts" :key="post.title" class="flex flex-col overflow-hidden cursor-pointer" @click="viewArticle(post)">
             <div class="flex-shrink-0">
               <img class="h-72 w-full object-cover" :src="post.imageUrl" alt="" />
             </div>
@@ -27,7 +27,7 @@
                   class="text-base font-einasemibold flex items-center"
                   :class="post.category.name === 'Article' ? 'text-voxo-purple' : 'text-voxo-red'"
                 >
-                  <img :src="post.category.name === 'Article' ? '/public/assets/images/icons/icon-blog-article.svg' : '/public/assets/images/icons/icon-blog-video.svg'" />
+                  <img :src="post.category.name === 'Article' ? '/assets/images/icons/icon-blog-article.svg' : '/assets/images/icons/icon-blog-video.svg'" />
                   <a :href="post.category.href" class="hover:underline ml-2">
                     {{ post.category.name }}
                   </a>
@@ -36,7 +36,7 @@
                   <p class="text-xl font-einabold">
                     {{ post.title }}
                   </p>
-                  <p class="mt-3 text-lg text-gray-500">
+                  <p class="mt-3 text-lg text-voxo-gray">
                     {{ post.description }}
                   </p>
                 </router-link>
