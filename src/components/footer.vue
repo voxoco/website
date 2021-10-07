@@ -53,9 +53,9 @@
               </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.legal" :key="item.name">
-                  <a :href="item.href" class="text-base text-voxo-gray-footer-text">
+                  <router-link :to="item.href" class="text-base text-voxo-gray-footer-text">
                     {{ item.name }}
-                  </a>
+                  </router-link>
                 </li>
               </ul>
             </div>
@@ -103,8 +103,8 @@ const navigation = {
   ],
   legal: [
     { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
-    { name: 'Terms', href: '#' },
+    { name: 'Privacy', href: '/privacy-policy' },
+    { name: 'Terms', href: '/terms-and-conditions' },
   ],
   social: [
     {

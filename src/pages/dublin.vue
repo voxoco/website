@@ -5,20 +5,20 @@
         <img class="absolute inset-0 w-full h-full object-cover" src="/public/assets/images/locations/location-placeholder.jpg" alt="Hattiesburg, MS" />
       </div>
       <div class="text-center max-w-xl lg:max-w-7xl lg:px-8 mx-auto px-4 sm:px-6 pt-8 lg:pt-0">
-        <img class="mx-auto lg:mx-0" src="/public/assets/images/icons/flag-wi.svg" alt="Wisconsin" />
+        <img class="mx-auto lg:mx-0" src="/public/assets/images/icons/flag-nashville.svg" alt="Tennessee" />
       </div>
       <div class="px-4 lg:w-5/12 sm:px-8 xl:pr-16">
         <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl">
-          <span class="inline">Milwaukee</span>
-          <span class="inline text-voxo-red"> WI</span>
+          <span class="inline">Dublin</span>
+          <span class="inline text-voxo-red"> UK</span>
         </h1>
         <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
         </p>
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
           <div class="rounded-md shadow">
-            <a href="#" class="font-einasemibold w-full flex items-center justify-center px-8 py-3 border-transparent rounded-lg text-white bg-voxo-red md:py-3 md:text-lg">
-              Call To Action
+            <a href="tel:02896228748" class="font-einasemibold w-full flex items-center justify-center px-8 py-3 border-transparent rounded-lg text-white bg-voxo-red md:py-3 md:text-lg">
+              Call Us
             </a>
           </div>
         </div>

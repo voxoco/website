@@ -129,13 +129,14 @@
             </div>
             <div class="mt-6">
               <nav class="grid gap-y-2">
-                <!--                <router-link
+                <router-link
                   to="/"
-                  class="text-base p-1 block font-semibold"
-                  :class="$route.name === 'index' ? 'font-semibold text-voxo-gray-dark' : 'font-normal text-voxo-gray'"
+                  class="text-base p-1 block"
+                  :class="$route.name === 'index' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
+                  @click="hideMenu"
                 >
                   Home
-                </router-link>-->
+                </router-link>
 
                 <router-link
                   to="/product"
@@ -236,9 +237,9 @@ const locations = [
     icon: '/assets/images/icons/flag-pa.svg',
   },
   {
-    name: 'Milwaukee, WI',
-    description: 'We are at 211 N Rochester Street',
-    href: '/milwaukee',
+    name: 'Dublin, UK',
+    description: '',
+    href: '/dublin',
     icon: '/assets/images/icons/flag-wi.svg',
   },
 ]
