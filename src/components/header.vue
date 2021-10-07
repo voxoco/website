@@ -238,7 +238,7 @@ const locations = [
   },
   {
     name: 'Dublin, UK',
-    description: '',
+    description: 'We are in Northern Ireland',
     href: '/dublin',
     icon: '/assets/images/icons/flag-wi.svg',
   },

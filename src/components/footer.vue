@@ -83,33 +83,34 @@ import { defineComponent, h } from 'vue'
 
 const navigation = {
   solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+    { name: 'Call Center', href: '/product#call-center' },
+    { name: 'Mobility', href: '/product#mobility' },
+    { name: 'Desktop App', href: '/product#desktop-app' },
+    { name: 'SIP Trunks', href: '/product#sip-trunks' },
+    { name: 'Custom Dev', href: '/product#custom-development' },
   ],
   support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
+    { name: 'Email Us', href: 'mailto:support@voxo.co' },
+    { name: 'Call Us', href: 'tel:6016025060' },
+    { name: 'Documentation', href: 'https://api-docs.voxo.co' },
+    { name: 'Support', href: 'https://support.voxo.co' },
     { name: 'API Status', href: '#' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'About', href: '/team' },
+    { name: 'Blog', href: '/blog' },
+    { name: 'Our Team', href: '/team' },
+    { name: 'Jobs', href: '#SHOW MODAL' },
+    { name: 'Changelog', href: '#' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
     { name: 'Privacy', href: '/privacy-policy' },
     { name: 'Terms', href: '/terms-and-conditions' },
   ],
   social: [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://www.facebook.com/voxoco',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -124,7 +125,7 @@ const navigation = {
     },
     {
       name: 'Twitter',
-      href: '#',
+      href: 'https://twitter.com/voxollc',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -137,7 +138,7 @@ const navigation = {
     },
     {
       name: 'GitHub',
-      href: '#',
+      href: 'https://github.com/voxoco',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [

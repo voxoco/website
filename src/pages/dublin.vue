@@ -18,7 +18,7 @@
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
           <div class="rounded-md shadow">
             <a href="tel:02896228748" class="font-einasemibold w-full flex items-center justify-center px-8 py-3 border-transparent rounded-lg text-white bg-voxo-red md:py-3 md:text-lg">
-              Call Us
+              Call Us Now
             </a>
           </div>
         </div>

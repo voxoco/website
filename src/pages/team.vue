@@ -11,13 +11,10 @@
         About Us
       </h1>
       <p class="max-w-4xl mx-auto text-center">
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat
-        veniam occaecat fugiat Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-        Elit sunt amet fugiat aliqua.
+        Changing the world through inspiration, challenging the status quo, forging new paths and solving problems. VOXO is the platform that fuels a deeper purpose and allows its team members to do the things that inspire them.
       </p>
       <p class="max-w-4xl mx-auto text-center py-4">
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-        fugiat veniam occaecat fugiat aliqua aliqua ad ad non deserunt sunt.
+        When a new member joins the VOXO team it isn't because of their resume or talent but rather their character and purpose. It is more about their ability to believe in and embody the VOXO WHY.
       </p>
     </div>
   </div>

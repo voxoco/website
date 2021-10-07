@@ -17,8 +17,7 @@
                 </span>
               </h1>
               <p class="pt-6 lg:pb-8 text-base">
-                Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus
-                dui laoreet diam sed lacus, fames.
+                You will frequently hear of our commitment to building relationships. It's integral to who we are. And a key part of how we build relationships is by adding real value to the lives of everyone we touch, whether clients or team members we are committed to adding value.
               </p>
               <div class="rounded-md">
                 <div class="cursor-pointer my-10 font-einasemibold w-3/4 flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-red md:py-3 md:text-lg lg:mx-0" @click="open = true">

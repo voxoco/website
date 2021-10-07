@@ -26,7 +26,7 @@
 
     <!-- Alternating Feature Sections -->
     <div class="relative pt-16 pb-0 lg:pb-32 overflow-hidden">
-      <div class="relative">
+      <div id="call-center" class="relative">
         <div class="max-w-xl lg:max-w-7xl lg:px-8 mx-auto px-4 sm:px-6">
           <img src="/public/assets/images/icons/icon-call-center.svg" alt="Call Center" />
         </div>
@@ -71,7 +71,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-6 mb-0 lg:my-38">
+      <div id="mobility" class="mt-6 mb-0 lg:my-38">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
           <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
             <div>
@@ -106,7 +106,7 @@
   </div>
 
   <!--  PBX Features-->
-  <div class="relative bg-opacity-0 pb-10 lg:pb-24">
+  <div id="pbx-features" class="relative bg-opacity-0 pb-10 lg:pb-24">
     <div class="max-w-xl lg:max-w-7xl lg:px-8 mx-auto px-4 sm:px-6">
       <img class="mx-auto" src="/public/assets/images/icons/icon-pbx.svg" alt="PBX Features" />
       <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
@@ -142,7 +142,7 @@
   </div>
 
   <!--  Desktop App-->
-  <div class="relative mt-10">
+  <div id="desktop-app" class="relative mt-10">
     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex lg:space-x-8 sm:justify-between items-center flex-wrap">
       <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-5/12">
         <div>
@@ -167,13 +167,13 @@
   </div>
 
   <!--  SIP Trunks-->
-  <div class="bg-gradient-to-b from-voxo-gray-light to-transparent -mt-18 h-48"></div>
+  <div id="sip-trunks" class="bg-gradient-to-b from-voxo-gray-light to-transparent -mt-18 h-48"></div>
   <div class="bg-white">
     <div class="px-4 lg:mx-auto lg:max-w-7xl lg:px-8 pt-12 pb-24">
       <img class="mx-auto" src="/public/assets/images/icons/icon-trunks.svg" alt="PBX Features" />
-      <h2 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
+      <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
         SIP Trunks
-      </h2>
+      </h1>
       <p class="max-w-4xl mx-auto text-center">
         Some of our clients have recently invested in an On-Prem PBX, but still want the support, infrastructure, and personal
         relationship VOXO brings to the telecom experience. No worries! We provide low cost SIP trunks that provide dial tone
@@ -184,7 +184,7 @@
   </div>
 
   <!--  Custom Development-->
-  <div class="bg-gradient-to-l from-voxo-gray-grad-dark to-transparent transform skew-y-3">
+  <div id="custom-development" class="bg-gradient-to-l from-voxo-gray-grad-dark to-transparent transform skew-y-3">
     <div class="transform -skew-y-3 py-24">
       <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex lg:space-x-8 sm:justify-between items-center flex-wrap transform">
         <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-5/12">
@@ -213,7 +213,7 @@
   </div>
 
   <!--  Our Infrastructure-->
-  <div class="mt-12">
+  <div id="our-infrastructure" class="mt-12">
     <div class="px-4 lg:mx-auto lg:max-w-7xl lg:px-8 pt-12 pb-24">
       <img class="mx-auto" src="/public/assets/images/icons/icon-infrastructure.svg" alt="PBX Features" />
       <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl text-center pt-4 pb-6">
@@ -224,7 +224,14 @@
         relationship VOXO brings to the telecom experience. No worries! We provide low cost SIP trunks that provide dial tone
         to your On-Prem PBX, installed without hassle. You can still manage your numbers and basic call flow from our portal too!
       </p>
-      <img class="mx-auto pt-16" src="/public/assets/images/infrastructure.png" alt="Our Infrastructure" />
+      <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-9">
+        <div class="rounded-md shadow">
+          <a href="https://github.com/voxoco/k8s" class="w-full flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-gray-dark md:py-3 md:text-lg">
+            <span class="pr-2"><svg fill="currentColor" viewBox="0 0 24 24" class="h-6 w-6" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg></span><span> GitHub Demo</span>
+          </a>
+        </div>
+      </div>
+      <iframe height="1000" class="mx-auto pt-12 w-full" src="https://isoflow.io/project/cknuw4pyddjjq0738cnikqcbv"></iframe>
     </div>
   </div>
 </template>
