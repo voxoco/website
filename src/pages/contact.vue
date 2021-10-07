@@ -83,60 +83,52 @@
                   </h1>
                   <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8 ">
                     <div>
-                      <div class="mt-1 border-b border-gray-300 ">
-                        <input
-                          id="first-name"
-                          v-model="contactForm.firstName"
-                          type="text"
-                          name="first-name"
-                          class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                          placeholder="First Name"
-                        />
-                      </div>
+                      <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
+                      <input
+                        id="first-name"
+                        v-model="contactForm.firstName"
+                        type="text"
+                        name="first-name"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
                     </div>
                     <div>
-                      <div class="mt-1 border-b border-gray-300 ">
-                        <input
-                          id="last-name"
-                          v-model="contactForm.lastName"
-                          type="text"
-                          name="last-name"
-                          autocomplete="family-name"
-                          class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                          placeholder="Last Name"
-                        />
-                      </div>
+                      <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
+                      <input
+                        id="last-name"
+                        v-model="contactForm.lastName"
+                        type="text"
+                        name="last-name"
+                        autocomplete="family-name"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
                     </div>
                     <div>
-                      <div class="mt-1 border-b border-gray-300 ">
-                        <input
-                          id="email"
-                          v-model="contactForm.email"
-                          name="email"
-                          type="email"
-                          autocomplete="email"
-                          class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                          placeholder="Email"
-                        />
-                      </div>
+                      <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                      <input
+                        id="email"
+                        v-model="contactForm.email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
                     </div>
                     <div>
-                      <div class="mt-1 border-b border-gray-300 ">
-                        <input
-                          id="phone"
-                          v-model="contactForm.phone"
-                          type="text"
-                          name="phone"
-                          autocomplete="tel"
-                          class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                          placeholder="Phone"
-                        />
-                      </div>
+                      <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+                      <input
+                        id="phone"
+                        v-model="contactForm.phone"
+                        type="text"
+                        name="phone"
+                        autocomplete="tel"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
                     </div>
                     <div class="sm:col-span-2">
                       <div class="flex justify-between">
-                        <label for="message" class="block text-base">Message</label>
-                        <span id="message-max" class="text-sm text-warm-gray-500">Max. 500 characters</span>
+                        <label for="message" class="text-sm text-gray-700">Message</label>
+                        <span id="message-max" class="text-sm text-gray-700">Max. 500 characters</span>
                       </div>
                       <div class="mt-1">
                         <textarea
@@ -144,7 +136,7 @@
                           v-model="contactForm.message"
                           name="message"
                           rows="4"
-                          class="focus:shadow-none focus:outline-none focus:ring-0 focus:ring-white focus:border-voxo-gray py-3 px-4 block w-full text-voxo-gray border border-voxo-gray-dark rounded-md"
+                          class="focus:ring-red-500 focus:border-red-500 py-3 px-4 block border-gray-300 w-full rounded-md"
                           aria-describedby="message-max"
                         />
                       </div>
