@@ -17,7 +17,7 @@
 
       <div class="relative max-w-7xl mx-auto py-10">
         <div class="max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          <div v-for="post in posts" :key="post.title" class="flex flex-col overflow-hidden cursor-pointer" @click="viewArticle(post)">
+          <div v-for="post in pagePosts" :key="post.title" class="flex flex-col overflow-hidden cursor-pointer" @click="viewArticle(post)">
             <div class="flex-shrink-0">
               <img class="h-72 w-full object-cover" :src="post.coverPhoto" alt="" />
             </div>
@@ -69,6 +69,23 @@
           </div>
         </div>
       </div>
+
+      <!--      PAGINATION-->
+      <nav v-if="maxPages > 1" class="border-t border-gray-200 px-4 pb-4 flex items-center justify-center sm:px-0">
+        <div class="hidden md:-mt-px md:flex">
+          <!-- Current: "border-indigo-500 text-indigo-600", Default: "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300" -->
+          <div
+            v-for="i in maxPages"
+            :key="i"
+            class="border-transparent text-voxo-gray-dark border-t-2 pt-4 px-4 inline-flex items-center text-base cursor-pointer"
+            :class="i === currentPage ? 'border-voxo-red text-voxo-red' : ''"
+            aria-current="page"
+            @click="doPage(i)"
+          >
+            {{ i }}
+          </div>
+        </div>
+      </nav>
     </div>
   </div>
 </template>
@@ -91,7 +108,41 @@ export default {
     return {
       posts,
       viewArticle,
+      postsPerPage: 9,
     }
+  },
+  data() {
+    return {
+      currentPage: 1,
+      totalPages: 0,
+      maxPages: 5,
+      pagePosts: [],
+    }
+  },
+  watch: {
+    currentPage() {
+      if (this.currentPage > 1) {
+        const startPost = this.postsPerPage * (this.currentPage - 1) - 1
+        const endPost = this.postsPerPage * this.currentPage - 1
+        this.pagePosts = this.posts.slice(startPost, endPost)
+      }
+      else {
+        this.pagePosts = this.posts.slice(0, this.postsPerPage)
+      }
+    },
+  },
+  mounted() {
+    this.pagePosts = this.posts.slice(0, this.postsPerPage)
+    this.totalPages = Math.ceil(this.posts.length / this.postsPerPage)
+
+    if (this.totalPages < this.maxPages)
+      this.maxPages = this.totalPages
+  },
+  methods: {
+    doPage(pageNum) {
+      this.currentPage = pageNum
+      window.scrollTo(0, 0)
+    },
   },
 }
 </script>

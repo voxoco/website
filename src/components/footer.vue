@@ -17,9 +17,9 @@
               </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.solutions" :key="item.name">
-                  <a :href="item.href" class="text-base text-voxo-gray-footer-text">
+                  <router-link :to="item.href" class="text-base text-voxo-gray-footer-text">
                     {{ item.name }}
-                  </a>
+                  </router-link>
                 </li>
               </ul>
             </div>
@@ -29,9 +29,9 @@
               </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
-                  <a :href="item.href" class="text-base text-voxo-gray-footer-text">
+                  <router-link :to="item.href" class="text-base text-voxo-gray-footer-text">
                     {{ item.name }}
-                  </a>
+                  </router-link>
                 </li>
               </ul>
             </div>
@@ -43,9 +43,9 @@
               </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
-                  <a :href="item.href" class="text-base text-voxo-gray-footer-text">
+                  <router-link :to="item.href" class="text-base text-voxo-gray-footer-text">
                     {{ item.name }}
-                  </a>
+                  </router-link>
                 </li>
               </ul>
             </div>
@@ -69,7 +69,7 @@
           &copy 2021 VOXO, Inc. All rights reserved.
         </div>
         <div class="flex space-x-6 justify-center flex-1">
-          <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
+          <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-gray-400 hover:text-gray-500">
             <span class="sr-only">{{ item.name }}</span>
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>

@@ -6,7 +6,7 @@
       <img class="w-full" src="/public/assets/images/stripes.svg" alt="" />
     </div>
 
-    <div class="relative z-10 pt-24 pb-12 bg-gradient-to-b from-voxo-gray-light">
+    <div class="relative z-10 pt-24 pb-12 bg-gradient-to-b from-voxo-gray-light to-transparent">
       <!--      Hero Vector-->
       <div class="absolute right-0 top-0">
         <img src="/public/assets/images/home-hero-vector.svg" alt="" />

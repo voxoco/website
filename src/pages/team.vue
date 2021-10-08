@@ -35,7 +35,7 @@
                   {{ person.role }}
                 </p>
               </div>
-              <div class="text-base">
+              <div class="text-sm">
                 <p>
                   {{ person.bio }}
                 </p>
