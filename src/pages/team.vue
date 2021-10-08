@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <div class="relative">
-      <img class="w-full" src="/public/assets/images/team-banner.jpg" alt="Our Team" />
+      <img class="w-full object-cover h-80" src="/public/assets/images/team-banner.jpg" alt="Our Team" />
       <h1 class="text-3xl md:text-7xl text-white absolute h-full w-full flex items-center justify-center z-10 top-0">
         Our Team
       </h1>
