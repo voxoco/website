@@ -3,8 +3,26 @@
     {
       "name": "Joe Mordica",
       "role": "Founder",
-      "imageUrl": "/assets/images/team/team-placeholder.png",
+      "imageUrl": "/cms/media/joe1.png",
       "bio": "Dad got the sag in the back with the drip. Go on, take a sip. So clean, like a mop."
+    },
+    {
+      "name": "Tim Watson",
+      "imageUrl": "/cms/media/tim.png",
+      "role": "Director of Deployment and Support",
+      "bio": "Tim Watson is the director of deployment and support, ensuring a smooth onboarding process, and top level support once a client chooses Voxo. Tim and his wife Lucy have three sons, and he spends his spare time archery hunting, grilling, and dabbling in music.\n\n"
+    },
+    {
+      "name": "Chancellor Montgomery",
+      "role": "Chief People Officer",
+      "bio": "Chancellor Montgomery serves as our CPO. In this role, Chancellor is a critical player in strengthening the relationships within the organization, as well as building solid relationships with VOXO clients. Unexpectedly, Chancellor was introduced to VOXO after meeting Joe and Phil at a random red light. After the initial encounter, the rest was history. Chancellor has a passion for music, fashion, and helping others walk in their God-given gifts. On most days, you can find Chancellor hanging out with his wife Shonice, building his personal brand Third World, or enjoying the great outdoors.\n",
+      "imageUrl": "/cms/media/chance1.png"
+    },
+    {
+      "name": "James Harrod",
+      "imageUrl": "/cms/media/james.png",
+      "bio": "James joined VOXO in 2019 bringing experience in software development and web technologies. A problem solver at heart, he aims to leverage cutting-edge technology to solve complex problems on the mission of fixing telecom. He is married and has two children. In his free time, James enjoys time with family, video games, and continued education and research.",
+      "role": "Software Developer"
     }
   ]
 }
