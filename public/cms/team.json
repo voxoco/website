@@ -1,40 +1,28 @@
 {
   "teamList": [
     {
-      "name": "Joe Mordica",
-      "role": "Founder",
-      "imageUrl": "/cms/media/joe1.png",
-      "bio": "Dad got the sag in the back with the drip. Go on, take a sip. So clean, like a mop."
-    },
-    {
-      "name": "Tim Watson",
-      "imageUrl": "/cms/media/tim.png",
-      "role": "Director of Deployment and Support",
-      "bio": "Tim Watson is the director of deployment and support, ensuring a smooth onboarding process, and top level support once a client chooses Voxo. Tim and his wife Lucy have three sons, and he spends his spare time archery hunting, grilling, and dabbling in music.\n\n"
+      "name": "Anthony Felipe",
+      "imageUrl": "/cms/media/anthony1.png",
+      "role": "Help Desk",
+      "bio": "Anthony is a Christ loving husband and father of 3. He's the best bench warmer that church league basketball has ever seen. He is somehow both a retired and aspiring rapper (not sure how that works), a military veteran, and a huge asset to the VOXO team with humility being his most valuable asset."
     },
     {
       "name": "Chancellor Montgomery",
       "role": "Chief People Officer",
-      "bio": "Chancellor Montgomery serves as our CPO. In this role, Chancellor is a critical player in strengthening the relationships within the organization, as well as building solid relationships with VOXO clients. Unexpectedly, Chancellor was introduced to VOXO after meeting Joe and Phil at a random red light. After the initial encounter, the rest was history. Chancellor has a passion for music, fashion, and helping others walk in their God-given gifts. On most days, you can find Chancellor hanging out with his wife Shonice, building his personal brand Third World, or enjoying the great outdoors.\n",
+      "bio": "Chancellor Montgomery serves as our CPO. In this role, Chancellor is a critical player in strengthening the relationships within the organization as well as building solid relationships with VOXO clients. Chancellor has a passion for music, fashion, and helping others walk in their God-given gifts. Chancellor enjoys spending time with his wife Shonice, building his brand Third World, and enjoying the great outdoors.\n",
       "imageUrl": "/cms/media/chance1.png"
-    },
-    {
-      "name": "James Harrod",
-      "imageUrl": "/cms/media/james.png",
-      "bio": "James joined VOXO in 2019 bringing experience in software development and web technologies. A problem solver at heart, he aims to leverage cutting-edge technology to solve complex problems on the mission of fixing telecom. He is married and has two children. In his free time, James enjoys time with family, video games, and continued education and research.",
-      "role": "Software Developer"
     },
     {
       "name": "Phil Watson ",
       "role": "CEO",
       "imageUrl": "/cms/media/phil-11.png",
-      "bio": "Use bio from old site"
+      "bio": "Test"
     },
     {
       "name": "Joel Myrick",
       "imageUrl": "/cms/media/joel1.png",
-      "bio": "Hey there! Joel here. I am the Director of Business Development at VOXO. For over 3 years, I have worked to make sure our customer's satisfaction comes first. I am married to the #1 who has given me 3 wonderful children. My passion is coaching! I have been coaching little league baseball for over 5 years. \n",
-      "role": "Director of Business Development"
+      "bio": "For over 3 years, Joel has worked to make sure VOXO's customers satisfaction comes first. Joel is married to the #1 who has given him 3 wonderful children. His passion is coaching! He have been coaching little league baseball for over 5 years.\n",
+      "role": "Dir. of Business Development"
     },
     {
       "name": "Asia Montgomery ",
@@ -43,22 +31,34 @@
       "bio": "Hey girl! "
     },
     {
+      "name": "Joe Mordica",
+      "role": "Founder",
+      "imageUrl": "/cms/media/joe1.png",
+      "bio": "Dad got the sag in the back with the drip. Go on, take a sip. So clean, like a mop."
+    },
+    {
+      "name": "James Harrod",
+      "imageUrl": "/cms/media/james.png",
+      "bio": "James joined VOXO in 2019 bringing experience in software development and web technologies. A problem solver at heart, he aims to leverage cutting-edge technology to solve complex problems on the mission of fixing telecom. He is married and has two children. In his free time, James enjoys time with family, video games, and continued education and research.",
+      "role": "Software Developer"
+    },
+    {
       "name": "Noah Post",
       "role": "Help Desk",
       "imageUrl": "/cms/media/noah1.png",
       "bio": "Postage!"
     },
     {
-      "name": "Anthony Felipe",
-      "imageUrl": "/cms/media/anthony1.png",
-      "role": "Help Desk",
-      "bio": "That boi pretty! "
-    },
-    {
       "name": "Nick Kelsoe",
       "role": "VP of Sales",
       "bio": "Head is huge in this pic",
       "imageUrl": "/cms/media/nick1.png"
+    },
+    {
+      "name": "Tim Watson",
+      "imageUrl": "/cms/media/tim.png",
+      "role": "Director of Deployment and Support",
+      "bio": "Tim Watson is the director of deployment and support, ensuring a smooth onboarding process, and top level support once a client chooses Voxo. Tim and his wife Lucy have three sons, and he spends his spare time archery hunting, grilling, and dabbling in music.\n\n"
     },
     {
       "name": "Daniel Charpie",
