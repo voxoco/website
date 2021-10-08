@@ -7,7 +7,7 @@ const config = {
     name: 'github',
     repo: 'voxoco/website',
   },
-  media_folder: 'public/cms',
+  media_folder: 'cms',
   collections: [
     {
       name: 'Main',
@@ -16,7 +16,7 @@ const config = {
         {
           label: 'Team',
           name: 'Team',
-          file: 'public/cms/team.json',
+          file: 'cms/team.json',
           fields: [
             {
               label: 'Team',
