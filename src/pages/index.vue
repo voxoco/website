@@ -6,7 +6,7 @@
       <img class="w-full" src="/public/assets/images/stripes.svg" alt="" />
     </div>
 
-    <div class="relative z-10 pt-24 pb-12 bg-gradient-to-b from-voxo-gray-light to-transparent">
+    <div class="relative z-10 pt-12 sm:pt-24 pb-12 bg-gradient-to-b from-voxo-gray-light to-transparent">
       <!--      Hero Vector-->
       <div class="absolute right-0 top-0">
         <img src="/public/assets/images/home-hero-vector.svg" alt="" />
@@ -15,7 +15,7 @@
       <!--      Hero Content-->
       <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex sm:justify-between relative z-10 flex-wrap">
-          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-1/3 ">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-5/12">
             <div>
               <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-6xl mt-2">
                 Simply Communicate
@@ -24,13 +24,14 @@
                 At VOXO, we know there is power in simplicity. We provide solutions that are straightforward and easy to
                 manage, allowing your organization to collaborate with ease while optimizing business communication.
               </p>
-              <div class="flex items-center">
-                <div class="mt-3 rounded-md shadow sm:mt-0">
+              <div class="flex flex-wrap sm:flex-wrap-none w-full items-center gap-x-2">
+                <div class="w-full mt-3 rounded-md shadow sm:mt-0 sm:w-auto">
                   <a target="_blank" href="https://apps.apple.com/us/app/voxo-mobility/id1434645492" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-voxo-gray-dark hover:bg-voxo-gray md:py-4 md:text-lg md:px-8">
-                    <span class="pr-2"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1371 20.4103C15.9835 21.5297 14.7108 21.3552 13.4977 20.8274C12.2079 20.289 11.0289 20.2549 9.66676 20.8274C7.97051 21.5595 7.07024 21.3467 6.04866 20.4103C0.281 14.4723 1.13232 5.42713 7.68745 5.0866C9.27728 5.17174 10.3904 5.96559 11.3268 6.03156C12.7187 5.7485 14.051 4.93762 15.5408 5.04404C17.3307 5.18876 18.6694 5.89535 19.5633 7.16594C15.8814 9.37936 16.754 14.2318 20.1358 15.594C19.459 17.3711 18.5907 19.1269 17.1349 20.4252L17.1371 20.4103ZM11.1991 5.02276C11.0267 2.38368 13.1657 0.212829 15.626 0C15.9644 3.04345 12.8592 5.32072 11.1991 5.02276Z" fill="white" /></svg></span>  App Store
+                    <span class="pr-2"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.1371 20.4103C15.9835 21.5297 14.7108 21.3552 13.4977 20.8274C12.2079 20.289 11.0289 20.2549 9.66676 20.8274C7.97051 21.5595 7.07024 21.3467 6.04866 20.4103C0.281 14.4723 1.13232 5.42713 7.68745 5.0866C9.27728 5.17174 10.3904 5.96559 11.3268 6.03156C12.7187 5.7485 14.051 4.93762 15.5408 5.04404C17.3307 5.18876 18.6694 5.89535 19.5633 7.16594C15.8814 9.37936 16.754 14.2318 20.1358 15.594C19.459 17.3711 18.5907 19.1269 17.1349 20.4252L17.1371 20.4103ZM11.1991 5.02276C11.0267 2.38368 13.1657 0.212829 15.626 0C15.9644 3.04345 12.8592 5.32072 11.1991 5.02276Z" fill="white" /></svg></span>
+                    <span class="text-base">App Store</span>
                   </a>
                 </div>
-                <div class="mt-3 rounded-md shadow sm:mt-0">
+                <div class="w-full mt-3 rounded-md shadow sm:mt-0 sm:w-auto">
                   <a target="_blank" href="https://apps.apple.com/us/app/voxo-mobility/id1434645492" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-voxo-gray-dark hover:bg-voxo-gray md:py-4 md:text-lg md:px-8">
                     <span class="pr-2"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M2.36259 1.31402C2.10812 1.61933 1.97943 2.01008 2.00268 2.40685V19.6434C1.98075 20.04 2.10928 20.4303 2.36259 20.7363L2.42149 20.7952L12.0737 11.1364V10.9074L2.42149 1.25513L2.36259 1.31402Z" fill="url(#paint0_linear)" />
@@ -95,22 +96,23 @@
                         </linearGradient>
                       </defs>
                     </svg>
-                    </span>  Google Play
+                    </span>
+                    <span class="text-base">Google Play</span>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="hidden w-3/4 ml-24 lg:mt-0 lg:flex-1 lg:block lg:-mr-16">
-            <img class="mxl-auto lg:w-auto" src="/public/assets/images/home-hero.svg" alt="Simply Communicate" />
+          <div class="hidden w-3/4 ml-8 lg:mt-0 lg:flex-1 lg:block lg:-mr-36">
+            <img class="mxl-auto lg:w-auto" src="/public/assets/images/home-hero-image.svg" alt="Simply Communicate" />
           </div>
         </div>
       </div>
     </div>
 
     <!--    What We Do-->
-    <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex items-center sm:justify-between relative z-10 flex-wrap pb-16 pt-16 lg:pt-16">
-      <div class="w-3/4 lg:mt-0 lg:flex-1 lg:block lg:order-1 order-2 mx-auto">
+    <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex items-center sm:justify-between relative z-10 flex-wrap pb-16 pt-16 lg:pb-32 lg:pt-24">
+      <div class="w-3/4 lg:mt-0 lg:flex-1 lg:block lg:order-1 order-2 mx-auto lg:mt-0 mt-12">
         <img class="mx-auto lg:w-auto" src="/public/assets/images/what-we-do.png" alt="Simply Communicate" />
       </div>
       <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-96 lg:ml-24 lg:order-2 order-1">
@@ -129,8 +131,8 @@
   </div>
   <!--    Why We Do It-->
   <div class="relative bg-voxo-gray-light z-10">
-    <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex items-center sm:justify-between relative z-10 flex-wrap py-8">
-      <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-96">
+    <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex items-center justify-center xl:justify-between relative z-10 flex-wrap py-10">
+      <div class="px-4 max-w-xl mx-auto sm:px-6 lg:mx-0 lg:px-0 lg:flex-none xl:w-96">
         <div>
           <h1 class="text-3xl text-voxo-gray-header tracking-tight md:text-5xl mt-2">
             Why We Do It
@@ -142,8 +144,8 @@
           </p>
         </div>
       </div>
-      <div class="w-3/4 lg:mt-0 lg:flex-1 lg:block lg:ml-24 lg:-mr-16 mx-auto cursor-pointer" @click="open = true">
-        <img class="mxl-auto lg:w-auto" src="/public/assets/images/video-placeholder.svg" alt="Simply Communicate" />
+      <div class="w-full mx-4 lg:mt-0 lg:flex-1 lg:block xl:ml-24 mx-auto cursor-pointer" @click="open = true">
+        <img class="w-full max-w-xl mx-auto lg:w-auto shadow-lg" src="/public/assets/images/video-placeholder.svg" alt="Simply Communicate" />
       </div>
     </div>
   </div>
@@ -151,7 +153,7 @@
   <!--    Our Clients-->
   <div class="bg-white py-8">
     <div class="lg:mx-auto lg:max-w-6xl lg:px-8 flex items-center sm:justify-between relative z-10 flex-wrap py-8">
-      <div class="px-4 flex w-full items-center justify-center flex-wrap gap-24">
+      <div class="px-4 flex w-full items-center justify-center flex-wrap lg:gap-24 gap-y-8 gap-x-16">
         <h1 class="text-2xl text-voxo-gray-dark flex-none mx-auto w-full text-center lg:flex-shrink lg:w-auto lg:mx-0">
           Our Clients
         </h1>

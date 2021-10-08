@@ -78,3 +78,33 @@ h2{
   width: 100%;
   height: 100%;
 }
+
+/*Blog Posts*/
+
+#blog-post h1{
+  @apply font-einabold;
+}
+
+#blog-post h2{
+  @apply font-einabold font-bold mb-2 voxo-text-red text-2xl;
+}
+
+#blog-post h3{
+  @apply font-einabold;
+}
+
+#blog-post h4{
+  @apply font-einabold;
+}
+
+#blog-post h5{
+  @apply font-einabold;
+}
+
+#blog-post h6{
+  @apply font-einabold;
+}
+
+#blog-post p{
+  @apply mb-3;
+}

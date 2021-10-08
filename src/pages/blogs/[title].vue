@@ -23,31 +23,47 @@ const currentBlog = Blog.blogList.find(item => item.slug === props.title)
     </div>
 
     <div class="bg-gradient-to-b from-voxo-gray-light to-transparent relative z-10">
-      <div class="max-w-xl sm:max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="max-w-prose mx-auto px-4 sm:px-6">
+        <h1 class="pt-16">
+          <span class="block text-base text-center text-voxo-red font-einasemibold tracking-wide uppercase">Introducing</span>
+          <span class="mt-2 block text-3xl text-center leading-8 font-einabold tracking-tight sm:text-4xl">{{ currentBlog.title }}</span>
+        </h1>
+        <div class="mt-6 flex items-center pb-6">
+          <div class="flex-shrink-0">
+            <div>
+              <span class="sr-only">{{ currentBlog.author }}</span>
+              <img class="h-10 w-10 rounded-full" :src="currentBlog.authorPhoto" alt="" />
+            </div>
+          </div>
+          <div class="ml-3">
+            <p class="text-sm font-eina-semibold mb-0">
+              <span class="hover:underline">
+                {{ currentBlog.author }}
+              </span>
+            </p>
+            <div class="flex space-x-1 text-sm text-voxo-gray">
+              <time :datetime="currentBlog.date">
+                {{ currentBlog.date }}
+              </time>
+              <span aria-hidden="true">
+                &middot;
+              </span>
+              <span> {{ currentBlog.readTime }} minute read </span>
+            </div>
+          </div>
+        </div>
+        <div class="aspect-w-16 aspect-h-9">
+          <img :src="currentBlog.coverPhoto" alt="" />
+        </div>
+        <div id="blog-post" class="pt-6 pb-10" v-html="marked(currentBlog.content)">
+        </div>
         <div>
           <button
-            class="btn text-sm my-8 bg-voxo-red text-white hover:bg-voxo-red focus:outline-none"
+            class="hover:bg-voxo-red-dark shadow-md w-full flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-red md:py-3 md:text-lg mb-10"
             @click="router.back()"
           >
             Back
           </button>
-        </div>
-        <h2 class="text-2xl font-einasemibold text-voxo-red">
-          Introducing
-        </h2>
-        <h1 class="font-einabold text-3xl pt-1">
-          {{ currentBlog.title }}
-        </h1>
-        <div class="flex space-x-1 text-sm text-voxo-gray">
-          <time :datetime="currentBlog.date">
-            {{ currentBlog.date }}
-          </time>
-          <span aria-hidden="true">
-          &middot;
-        </span>
-          <span> {{ currentBlog.readTime }} minute read </span>
-        </div>
-        <div v-html="marked(currentBlog.content)" class="pt-6 pb-24">
         </div>
       </div>
     </div>

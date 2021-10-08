@@ -59,7 +59,7 @@
                     <router-link
                       v-for="item in locations"
                       :key="item.name"
-                      :to="item.href"
+                      :to="`/locations${item.href}`"
                       class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50 transition ease-in-out duration-150"
                       @click="hideFlyoutMenu"
                     >
@@ -180,7 +180,7 @@
           </div>
           <div class="py-6 px-5 space-y-6">
             <div class="grid grid-cols-2 gap-y-3 gap-x-8">
-              <router-link v-for="item in locations" :key="item.name" :to="item.href" class="text-base flex items-center" @click="hideMenu">
+              <router-link v-for="item in locations" :key="item.name" :to="`/locations${item.href}`" class="text-base flex items-center" @click="hideMenu">
                 <div class="flex-shrink-0 flex items-center justify-center h-8 w-8 rounded-md text-white sm:h-12 sm:w-12">
                   <img :src="item.icon" :alt="item.name" />
                 </div>
@@ -223,7 +223,7 @@ const locations = [
   {
     name: 'Mobile, AL',
     description: 'We are at 30s Congress Street',
-    href: 'mobile',
+    href: '/mobile',
     icon: '/assets/images/icons/flag-mobile.svg',
   },
   {

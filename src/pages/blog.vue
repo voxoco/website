@@ -17,9 +17,9 @@
 
       <div class="relative max-w-7xl mx-auto py-10">
         <div class="max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-          <div v-for="post in pagePosts" :key="post.title" class="flex flex-col overflow-hidden cursor-pointer" @click="viewArticle(post)">
+          <div v-for="post in pagePosts" :key="post.title" class="flex flex-col overflow-hidden cursor-pointer shadow-lg rounded-lg" @click="viewArticle(post)">
             <div class="flex-shrink-0">
-              <img class="h-72 w-full rounded-lg object-cover" :src="post.coverPhoto" alt="" />
+              <img class="h-48 w-full rounded-lg object-cover" :src="post.coverPhoto" alt="" />
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">
@@ -49,7 +49,7 @@
                   </div>
                 </div>
                 <div class="ml-3">
-                  <p class="text-sm font-eina-semibold">
+                  <p class="text-sm font-einasemibold">
                     <span class="hover:underline">
                       {{ post.author }}
                     </span>

@@ -20,7 +20,7 @@
                 You will frequently hear of our commitment to building relationships. It's integral to who we are. And a key part of how we build relationships is by adding real value to the lives of everyone we touch, whether clients or team members we are committed to adding value.
               </p>
               <div class="rounded-md">
-                <div class="cursor-pointer my-10 font-einasemibold w-3/4 flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-red md:py-3 md:text-lg lg:mx-0" @click="open = true">
+                <div class="hover:bg-voxo-red-dark shadow-md cursor-pointer my-10 font-einasemibold w-3/4 flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-red md:py-3 md:text-lg lg:mx-0" @click="open = true">
                   Explore Open Positions
                 </div>
               </div>
@@ -66,8 +66,8 @@
             </div>
             <div class="sm:flex sm:items-start">
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                <DialogTitle as="h3" class="text-lg leading-6 font-medium text-gray-900">
-                  Contact us
+                <DialogTitle as="h3" class="text-2xl leading-6 font-einabold">
+                  Apply here
                 </DialogTitle>
                 <div class="mt-2">
                   <p class="text-sm voxo-text-gray">
@@ -141,8 +141,18 @@
                     <option selected disabled value="">
                       Select position
                     </option>
-                    <option>USA</option>
-                    <option>EU</option>
+                    <option value="DevOps">
+                      DevOps
+                    </option>
+                    <option value="Sales">
+                      Sales
+                    </option>
+                    <option value="Software Developer">
+                      Software Developer
+                    </option>
+                    <option value="Support Engineer">
+                      Support Engineer
+                    </option>
                   </select>
                 </div>
                 <div class="sm:col-span-2">
@@ -164,7 +174,7 @@
                 <div class="sm:col-span-2 sm:flex sm:justify-end">
                   <button
                     type="button"
-                    class="font-einasemibold mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-lg text-white bg-voxo-red sm:w-auto"
+                    class="hover:bg-voxo-red-dark shadow-md font-einasemibold mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-lg text-white bg-voxo-red sm:w-auto"
                     @click="submitForm"
                   >
                     Submit
@@ -322,6 +332,14 @@ export default {
 
       if (validate) {
         // post to formspree
+        const url = 'https://formspree.io/f/xbjqbwpa'
+        await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(this.employForm),
+        })
 
         this.clearForm()
         this.open = false

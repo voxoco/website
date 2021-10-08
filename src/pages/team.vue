@@ -25,14 +25,14 @@
       <li v-for="person in people" :key="person.name">
         <div class="space-y-4 sm:grid sm:grid-cols-4 sm:gap-6 sm:space-y-0 lg:gap-8">
           <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-3 sm:col-span-2">
-            <img class="object-cover rounded-lg" :src="person.imageUrl" :alt="person.name" />
+            <img class="shadow-lg object-cover rounded-lg" :src="person.imageUrl" :alt="person.name" />
           </div>
           <div class="sm:col-span-2">
             <div class="space-y-4">
               <div class="text-2xl leading-6 font-medium space-y-1">
                 <h2>{{ person.name }}</h2>
-                <p class="text-xl font-poppinssemibold text-voxo-red">
-                  {{ person.role }}
+                <p class="text-lg font-poppinssemibold text-voxo-red">
+                  {{ person.role.toUpperCase() }}
                 </p>
               </div>
               <div class="text-sm">

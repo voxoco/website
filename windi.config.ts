@@ -10,6 +10,7 @@ export default defineConfig({
       ...colors,
       'voxo-red': {
         DEFAULT: '#F92120',
+        dark: '#E01E1D',
       },
       'voxo-gray': {
         'DEFAULT': '#33444D',
