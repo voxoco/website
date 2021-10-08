@@ -41,6 +41,18 @@
       "imageUrl": "/cms/media/asia1.png",
       "role": "Office Administration ",
       "bio": "Hey girl! "
+    },
+    {
+      "name": "Noah Post",
+      "role": "Help Desk",
+      "imageUrl": "/cms/media/noah1.png",
+      "bio": "Postage!"
+    },
+    {
+      "name": "Anthony Felipe",
+      "imageUrl": "/cms/media/anthony1.png",
+      "role": "Help Desk",
+      "bio": "That boi pretty! "
     }
   ]
 }
