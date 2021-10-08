@@ -8,7 +8,7 @@
       "slug": "dad-vibes",
       "date": "Oct 07, 2021",
       "title": "Dad Vibes",
-      "content": "THERE IS GOING TO BE ALL KINDS OF TRASH HERE",
+      "content": "# voxo-api\r\n\r\n> Voxo API Feathers Migration to Feathers Crow (V4)\r\n\r\n## About\r\n\r\nThis project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.\r\n\r\n## Getting Started\r\n\r\nGetting up and running is as easy as 1, 2, 3.\r\n\r\n1. Make sure you have [NodeJS](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.\r\n2. Install your dependencies\r\n\r\n    ```\r\n    cd path/to/voxo-api\r\n    npm install\r\n    ```\r\n\r\n3. Start your app\r\n\r\n    ```\r\n    npm start\r\n    ```\r\n\r\n## Testing\r\n\r\nSimply run `npm test` and all your tests in the `test/` directory will be run.\r\n\r\n## Scaffolding\r\n\r\nFeathers has a powerful command line interface. Here are a few things it can do:\r\n\r\n```\r\n$ npm install -g @feathersjs/cli          # Install Feathers CLI\r\n\r\n$ feathers generate service               # Generate a new Service\r\n$ feathers generate hook                  # Generate a new Hook\r\n$ feathers help                           # Show all commands\r\n```\r\n\r\n## Help\r\n\r\nFor more information on all the things you can do with Feathers visit [docs.feathersjs.com](http://docs.feathersjs.com).",
       "coverPhoto": "/cms/media/team-placeholder.png",
       "category": "Article"
     }
