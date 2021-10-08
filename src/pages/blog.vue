@@ -9,7 +9,7 @@
               From the blog
             </h1>
             <p class="mt-6 text-xl text-warm-gray-500 max-w-3xl mx-auto">
-              Vel nunc non ut montes, viverra tempor. Proin lectus nibh phasellus morbi non morbi. In elementum urna ut volutpat. Sagittis et vel et fermentum amet consequat.
+              Catch up with the latest news and changes at VOXO. You can find updates to the VOXO product, updates on events, and general company updates here.
             </p>
           </div>
         </div>
