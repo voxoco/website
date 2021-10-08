@@ -70,3 +70,11 @@ h2{
     hover:opacity-100 hover:text-teal-600;
   font-size: 0.9em;
 }
+
+/*This is for the CMS THING*/
+#nc-root{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
