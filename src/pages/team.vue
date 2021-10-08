@@ -54,40 +54,15 @@
 <script>
 
 import JoinTeamPartial from '~/components/join-team-partial.vue'
-
-const people = [
-  {
-    name: 'Joe Mordica',
-    role: 'Founder',
-    imageUrl: '/assets/images/team/team-placeholder.png',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-  },
-  {
-    name: 'Whitney Francis',
-    role: 'Copywriter',
-    imageUrl: '/assets/images/team/team-placeholder.png',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-  },
-  {
-    name: 'Whitney Francis',
-    role: 'Copywriter',
-    imageUrl: '/assets/images/team/team-placeholder.png',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-  },
-  {
-    name: 'Whitney Francis',
-    role: 'Copywriter',
-    imageUrl: '/assets/images/team/team-placeholder.png',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
-  },
-  // More people...
-]
+import Team from '/public/cms/team.json'
 
 export default {
   components: {
     JoinTeamPartial,
   },
   setup() {
+    const people = [...Team.teamList]
+
     return {
       people,
     }

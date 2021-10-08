@@ -1,11 +1,13 @@
 <script>
 
 import CMS from 'netlify-cms-app'
+// import config from '/public/cms/config.yml'
 
 const config = {
   backend: {
     name: 'github',
     repo: 'voxoco/website',
+    branch: 'main',
   },
   media_folder: 'public/cms/media',
   public_folder: '/cms/media',
@@ -17,7 +19,7 @@ const config = {
         {
           label: 'Team',
           name: 'Team',
-          file: '/public/cms/team.json',
+          file: 'public/cms/team.json',
           fields: [
             {
               label: 'Team',

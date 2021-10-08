@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: voxoco/website
+media_folder: "public/cms/media" # Media files will be stored in the repo under images/uploads
+public_folder: "/cms/media" # Media files will be stored in the repo under images/uploads
+collections:
+  - name: "Main"
+    label: "VOXO Website"
+    files:
+      - label: "Team"
+        name: "Team"
+        file: "public/cms/team.json"
+        fields:
+          - label: "Team"
+            name: "teamList"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: string, }
+              - { label: "Image", name: "imageUrl", widget: image }
+              - { label: "Role", name: "role", widget: string }
+              - { label: "Bio", name: "bio", widget: text }
