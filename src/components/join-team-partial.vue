@@ -6,7 +6,7 @@
       <div class="relative z-10">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 flex items-center sm:justify-between relative z-10 flex-wrap pb-16 lg:pt-0">
           <div class="w-3/4 lg:mt-0 lg:flex-1 lg:block lg:order-1 order-2 mx-auto">
-            <img class="mx-auto lg:w-auto" src="/public/assets/images/join-team-images.png" alt="Join Our Team" />
+            <img class="mx-auto lg:w-auto" src="/public/assets/images/join-team.svg" alt="Join Our Team" />
           </div>
           <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:flex-none lg:w-96 lg:ml-24 lg:order-2 order-1">
             <div>
