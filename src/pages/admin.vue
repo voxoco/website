@@ -65,6 +65,7 @@ const config = {
                   widget: 'datetime',
                   date_format: 'MMM DD, YYYY',
                   time_format: false,
+                  format: 'MMM DD, YYYY',
                 },
                 {
                   label: 'Category',
@@ -100,6 +101,11 @@ const config = {
                 {
                   label: 'Title',
                   name: 'title',
+                  widget: 'string',
+                },
+                {
+                  label: 'Slug',
+                  name: 'slug',
                   widget: 'string',
                 },
                 {
