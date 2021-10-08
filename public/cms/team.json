@@ -87,8 +87,14 @@
     {
       "name": "Stephen Dindinger",
       "role": "VP of PA",
-      "bio": "Hello!",
+      "bio": "Past Pimp",
       "imageUrl": "/cms/media/staphen1.png"
+    },
+    {
+      "name": "Nate Hochstetler",
+      "role": "VP Too",
+      "bio": "Stud dogg",
+      "imageUrl": "/cms/media/nate1.png"
     }
   ]
 }
