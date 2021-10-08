@@ -173,7 +173,8 @@
             <div
               v-for="location in locations"
               :key="location.name"
-              class="border rounded-2xl border-voxo-gray-border border-opacity-40 pt-12 pb-4 px-7 no-flex w-72 flex-none"
+              class="border rounded-2xl border-voxo-gray-border border-opacity-40 pt-12 pb-4 px-7 no-flex w-72 flex-none cursor-pointer"
+              @click="$router.push(`${location.href}`)"
             >
               <div class="h-12 flex align-center">
                 <img class="" :src="location.icon" :alt="location.name" />

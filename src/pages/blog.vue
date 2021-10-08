@@ -61,7 +61,7 @@
                     <span aria-hidden="true">
                       &middot;
                     </span>
-                    <span> {{ post.readingTime }} read </span>
+                    <span> {{ post.readTime }} minute read </span>
                   </div>
                 </div>
               </div>
