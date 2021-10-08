@@ -19,7 +19,7 @@
         <div class="max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
           <div v-for="post in pagePosts" :key="post.title" class="flex flex-col overflow-hidden cursor-pointer" @click="viewArticle(post)">
             <div class="flex-shrink-0">
-              <img class="h-72 w-full object-cover" :src="post.coverPhoto" alt="" />
+              <img class="h-72 w-full rounded-lg object-cover" :src="post.coverPhoto" alt="" />
             </div>
             <div class="flex-1 bg-white p-6 flex flex-col justify-between">
               <div class="flex-1">

@@ -71,70 +71,72 @@
                 </DialogTitle>
                 <div class="mt-2">
                   <p class="text-sm voxo-text-gray">
-                    Some copy here about submiting this form to request job info, .... etc
+                    Our openings include software development, sales, accounting, and support engineers.
                   </p>
                 </div>
               </div>
             </div>
             <div class="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse sm:justify-center">
               <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8 ">
-                <div>
-                  <div class="mt-1 border-b border-gray-300 ">
+                <label for="first-name" class="block text-sm font-medium text-gray-700">First Name
+                  <div class="mt-1 border-gray-300 ">
                     <input
                       id="first-name"
                       v-model="employForm.firstName"
                       type="text"
                       name="first-name"
-                      class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                      placeholder="First Name"
+                      class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                     />
                   </div>
+                </label>
+                <div>
+                  <label for="last-name" class="block text-sm font-medium text-gray-700">Last Name
+                    <div class="mt-1 border-gray-300 ">
+                      <input
+                        id="last-name"
+                        v-model="employForm.lastName"
+                        type="text"
+                        name="last-name"
+                        autocomplete="family-name"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
+                    </div>
+                  </label>
                 </div>
                 <div>
-                  <div class="mt-1 border-b border-gray-300 ">
-                    <input
-                      id="last-name"
-                      v-model="employForm.lastName"
-                      type="text"
-                      name="last-name"
-                      autocomplete="family-name"
-                      class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                      placeholder="Last Name"
-                    />
-                  </div>
+                  <label for="email" class="block text-sm font-medium text-gray-700">Email
+                    <div class="mt-1 border-gray-300 ">
+                      <input
+                        id="email"
+                        v-model="employForm.email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
+                    </div>
+                  </label>
                 </div>
                 <div>
-                  <div class="mt-1 border-b border-gray-300 ">
-                    <input
-                      id="email"
-                      v-model="employForm.email"
-                      name="email"
-                      type="email"
-                      autocomplete="email"
-                      class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                      placeholder="Email"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <div class="mt-1 border-b border-gray-300 ">
-                    <input
-                      id="phone"
-                      v-model="employForm.phone"
-                      type="text"
-                      name="phone"
-                      autocomplete="tel"
-                      class="block w-full border-0 border-b border-transparent bg-transparent pl-0 focus:outline-none focus:ring-0"
-                      placeholder="Phone"
-                    />
-                  </div>
+                  <label for="phone" class="block text-sm font-medium text-gray-700">Phone
+                    <div class="mt-1 border-gray-300 ">
+                      <input
+                        id="phone"
+                        v-model="employForm.phone"
+                        type="text"
+                        name="phone"
+                        autocomplete="tel"
+                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                      />
+                    </div>
+                  </label>
                 </div>
                 <div class="sm:col-span-2">
                   <select
                     id="position"
                     v-model="employForm.position"
                     name="position"
-                    class="focus:border-voxo-gray cursor-pointer mt-1 block w-full pl-3 pr-10 py-2 text-base border-voxo-gray-dark focus:outline-none focus:ring-0 sm:text-sm rounded-md"
+                    class="focus:ring-red-500 focus:border-red-500 cursor-pointer mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 sm:text-sm rounded-md"
                   >
                     <option selected disabled value="">
                       Select position
@@ -154,7 +156,7 @@
                       v-model="employForm.message"
                       name="message"
                       rows="4"
-                      class="focus:shadow-none focus:outline-none focus:ring-0 focus:ring-white focus:border-voxo-gray py-3 px-4 block w-full text-voxo-gray border border-voxo-gray-dark rounded-md"
+                      class="focus:ring-red-500 focus:border-red-500 py-3 px-4 block w-full text-voxo-gray border border-gray-300 rounded-md"
                       aria-describedby="message-max"
                     />
                   </div>
