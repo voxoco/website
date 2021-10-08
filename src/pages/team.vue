@@ -25,7 +25,7 @@
       <li v-for="person in people" :key="person.name">
         <div class="space-y-4 sm:grid sm:grid-cols-4 sm:gap-6 sm:space-y-0 lg:gap-8">
           <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-3 sm:col-span-2">
-            <img class="object-cover" :src="person.imageUrl" :alt="person.name" />
+            <img class="object-cover rounded-lg" :src="person.imageUrl" :alt="person.name" />
           </div>
           <div class="sm:col-span-2">
             <div class="space-y-4">
