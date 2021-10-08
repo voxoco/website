@@ -17,7 +17,7 @@ const config = {
         {
           label: 'Team',
           name: 'Team',
-          file: 'public/cms/team.json',
+          file: '/public/cms/team.json',
           fields: [
             {
               label: 'Team',
