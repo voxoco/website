@@ -1,7 +1,6 @@
 <script>
 
 import CMS from 'netlify-cms-app'
-// import config from '/public/cms/config.yml'
 
 const config = {
   backend: {
@@ -45,6 +44,78 @@ const config = {
                   label: 'Bio',
                   name: 'bio',
                   widget: 'text',
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: 'Blog',
+          name: 'Blog',
+          file: 'public/cms/blog.json',
+          fields: [
+            {
+              label: 'Blog',
+              name: 'blogList',
+              widget: 'list',
+              fields: [
+                {
+                  label: 'Date',
+                  name: 'date',
+                  widget: 'datetime',
+                  date_format: 'MMM DD, YYYY',
+                  time_format: false,
+                },
+                {
+                  label: 'Category',
+                  name: 'category',
+                  widget: 'select',
+                  options: [
+                    {
+                      label: 'Article',
+                      value: 'Article',
+                    },
+                    {
+                      label: 'Video',
+                      value: 'Video',
+                    },
+                  ],
+                  default: 'Article',
+                },
+                {
+                  label: 'Author',
+                  name: 'author',
+                  widget: 'string',
+                },
+                {
+                  label: 'Author Photo',
+                  name: 'authorPhoto',
+                  widget: 'image',
+                },
+                {
+                  label: 'Read Time (minutes)',
+                  name: 'readTime',
+                  widget: 'string',
+                },
+                {
+                  label: 'Title',
+                  name: 'title',
+                  widget: 'string',
+                },
+                {
+                  label: 'Summary Excerpt',
+                  name: 'summary',
+                  widget: 'text',
+                },
+                {
+                  label: 'Post Content',
+                  name: 'content',
+                  widget: 'markdown',
+                },
+                {
+                  label: 'Cover Photo',
+                  name: 'coverPhoto',
+                  widget: 'image',
                 },
               ],
             },
