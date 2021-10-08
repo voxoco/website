@@ -23,6 +23,36 @@
       "imageUrl": "/cms/media/james.png",
       "bio": "James joined VOXO in 2019 bringing experience in software development and web technologies. A problem solver at heart, he aims to leverage cutting-edge technology to solve complex problems on the mission of fixing telecom. He is married and has two children. In his free time, James enjoys time with family, video games, and continued education and research.",
       "role": "Software Developer"
+    },
+    {
+      "name": "Phil Watson ",
+      "role": "CEO",
+      "imageUrl": "/cms/media/phil-11.png",
+      "bio": "Use bio from old site"
+    },
+    {
+      "name": "Joel Myrick",
+      "imageUrl": "/cms/media/joel1.png",
+      "bio": "Hey there! Joel here. I am the Director of Business Development at VOXO. For over 3 years, I have worked to make sure our customer's satisfaction comes first. I am married to the #1 who has given me 3 wonderful children. My passion is coaching! I have been coaching little league baseball for over 5 years. \n",
+      "role": "Director of Business Development"
+    },
+    {
+      "name": "Asia Montgomery ",
+      "imageUrl": "/cms/media/asia1.png",
+      "role": "Office Administration ",
+      "bio": "Hey girl! "
+    },
+    {
+      "name": "Noah Post",
+      "role": "Help Desk",
+      "imageUrl": "/cms/media/noah1.png",
+      "bio": "Postage!"
+    },
+    {
+      "name": "Anthony Felipe",
+      "imageUrl": "/cms/media/anthony1.png",
+      "role": "Help Desk",
+      "bio": "That boi pretty! "
     }
   ]
 }
