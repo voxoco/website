@@ -7,7 +7,8 @@ const config = {
     name: 'github',
     repo: 'voxoco/website',
   },
-  media_folder: 'public/cms',
+  media_folder: 'public/cms/media',
+  public_folder: '/cms/media',
   collections: [
     {
       name: 'Main',
