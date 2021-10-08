@@ -2,7 +2,7 @@
   <div class="lg:relative bg-voxo-gray-light">
     <div class="mx-auto max-w-7xl w-full pt-0 pb-20 text-center lg:py-48 lg:text-left lg:pt-16">
       <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-        <img class="absolute inset-0 w-full h-full object-cover" src="/public/assets/images/locations/location-placeholder.jpg" alt="Hattiesburg, MS" />
+        <img class="absolute inset-0 w-full h-full object-cover" src="/public/assets/images/locations/mobile-bg.jpg" alt="Hattiesburg, MS" />
       </div>
       <div class="text-center max-w-xl lg:max-w-7xl lg:px-8 mx-auto px-4 sm:px-6 pt-8 lg:pt-0">
         <img class="mx-auto lg:mx-0" src="/public/assets/images/icons/flag-mobile.svg" alt="Alabama" />
