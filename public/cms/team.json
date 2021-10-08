@@ -53,6 +53,42 @@
       "imageUrl": "/cms/media/anthony1.png",
       "role": "Help Desk",
       "bio": "That boi pretty! "
+    },
+    {
+      "name": "Nick Kelsoe",
+      "role": "VP of Sales",
+      "bio": "Head is huge in this pic",
+      "imageUrl": "/cms/media/nick1.png"
+    },
+    {
+      "name": "Daniel Charpie",
+      "role": "Support",
+      "bio": "50 percent reptile",
+      "imageUrl": "/cms/media/daniel1.png"
+    },
+    {
+      "name": "Seth Bigony",
+      "role": "Sales",
+      "imageUrl": "/cms/media/seth1.png",
+      "bio": "he turned it!"
+    },
+    {
+      "name": "Josh Reed",
+      "role": "VP of Houston",
+      "bio": "Reeds!",
+      "imageUrl": "/cms/media/josh1.png"
+    },
+    {
+      "name": "Ervin Bauman",
+      "role": "COO",
+      "bio": "Tall. ",
+      "imageUrl": "/cms/media/ervin1.png"
+    },
+    {
+      "name": "Stephen Dindinger",
+      "role": "VP of PA",
+      "bio": "Hello!",
+      "imageUrl": "/cms/media/staphen1.png"
     }
   ]
 }
