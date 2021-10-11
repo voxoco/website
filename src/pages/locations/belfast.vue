@@ -9,7 +9,7 @@
       </div>
       <div class="px-4 lg:w-5/12 sm:px-8 xl:pr-16">
         <h1 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl">
-          <span class="inline">Dublin</span>
+          <span class="inline">Belfast</span>
           <span class="inline text-voxo-red"> UK</span>
         </h1>
         <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">

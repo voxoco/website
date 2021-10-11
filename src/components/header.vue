@@ -239,9 +239,9 @@ const locations = [
     icon: '/assets/images/icons/flag-pa.svg',
   },
   {
-    name: 'Dublin, UK',
+    name: 'Belfast, UK',
     description: 'We are in Northern Ireland',
-    href: '/dublin',
+    href: '/belfast',
     icon: '/assets/images/icons/flag-wi.svg',
   },
 ]
