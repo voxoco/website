@@ -32,7 +32,7 @@
                   </a>
                 </div>
                 <div class="w-full mt-3 rounded-md shadow sm:mt-0 sm:w-auto">
-                  <a target="_blank" href="https://apps.apple.com/us/app/voxo-mobility/id1434645492" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-voxo-gray-dark hover:bg-voxo-gray md:py-4 md:text-lg md:px-8">
+                  <a target="_blank" href="https://play.google.com/store/apps/details?id=com.voxo.voxo.android" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-voxo-gray-dark hover:bg-voxo-gray md:py-4 md:text-lg md:px-8">
                     <span class="pr-2"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M2.36259 1.31402C2.10812 1.61933 1.97943 2.01008 2.00268 2.40685V19.6434C1.98075 20.04 2.10928 20.4303 2.36259 20.7363L2.42149 20.7952L12.0737 11.1364V10.9074L2.42149 1.25513L2.36259 1.31402Z" fill="url(#paint0_linear)" />
                       <path d="M15.2933 14.3558L12.0737 11.1362V10.9071L15.2933 7.69409L15.3653 7.73336L19.1804 9.89938C20.2732 10.5145 20.2732 11.5288 19.1804 12.1505L15.3653 14.3165L15.2933 14.3558Z" fill="url(#paint1_linear)" />
