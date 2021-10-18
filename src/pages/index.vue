@@ -158,7 +158,7 @@
           Our Clients
         </h1>
         <div class="block w-30">
-          <img class="mx-auto h-15" src="/public/assets/images/logo-ntg.svg" alt="NTG Freight" />
+          <img class="mx-auto h-15" src="/public/assets/images/logo-ti.png" alt="NTG Freight" />
         </div>
         <div class="block w-30">
           <img class="mx-auto" src="/public/assets/images/logo-enc.svg" alt="Encompass Health" />
