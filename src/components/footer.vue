@@ -29,9 +29,9 @@
               </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.support" :key="item.name">
-                  <router-link :to="item.href" class="text-base text-voxo-gray-footer-text">
+                  <a :href="item.href" class="text-base text-voxo-gray-footer-text">
                     {{ item.name }}
-                  </router-link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -114,8 +114,8 @@ const navigation = {
     { name: 'About', href: '/team' },
     { name: 'Blog', href: '/blog' },
     { name: 'Our Team', href: '/team' },
-    { name: 'Jobs', href: '#SHOW MODAL' },
-    { name: 'Changelog', href: '#' },
+    { name: 'Jobs', href: '/contact' },
+    { name: 'Changelog', href: 'https://github.com/voxoco' },
   ],
   legal: [
     { name: 'Privacy', href: '/privacy-policy' },
