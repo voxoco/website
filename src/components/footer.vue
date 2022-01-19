@@ -43,9 +43,9 @@
               </h1>
               <ul role="list" class="mt-4 space-y-4">
                 <li v-for="item in navigation.company" :key="item.name">
-                  <router-link :to="item.href" class="text-base text-voxo-gray-footer-text">
+                  <a :href="item.href" class="text-base text-voxo-gray-footer-text">
                     {{ item.name }}
-                  </router-link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -106,8 +106,8 @@ const navigation = {
   support: [
     { name: 'Email Us', href: 'mailto:support@voxo.co' },
     { name: 'Call Us', href: 'tel:6016025060' },
-    { name: 'Documentation', href: 'https://api-docs.voxo.co' },
-    { name: 'Support', href: 'https://support.voxo.co' },
+    { name: 'Documentation', href: 'https://docs.voxo.co' },
+    { name: 'Support', href: 'https://docs.voxo.co' },
     { name: 'API Status', href: '#' },
   ],
   company: [
