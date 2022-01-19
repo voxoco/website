@@ -115,7 +115,7 @@ const navigation = {
     { name: 'Blog', href: '/blog' },
     { name: 'Our Team', href: '/team' },
     { name: 'Jobs', href: '/contact' },
-    { name: 'Changelog', href: 'https://github.com/voxoco' },
+    { name: 'Changelog', href: 'https://docs.voxo.co/voxo-public/release-notes/whats-new' },
   ],
   legal: [
     { name: 'Privacy', href: '/privacy-policy' },
