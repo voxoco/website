@@ -11,6 +11,11 @@
   to = "/index.html"
   status = 200
 
+[[redirects]]
+ from = "https://support.voxo.co"
+ to = "https://docs.voxo.co"
+ status = 301
+
 [[headers]]
   for = "/manifest.webmanifest"
   [headers.values]
