@@ -14,7 +14,7 @@
 [[redirects]]
  from = "https://support.voxo.co"
  to = "https://docs.voxo.co"
- status = 301
+ status = 301!
 
 [[headers]]
   for = "/manifest.webmanifest"
