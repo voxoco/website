@@ -1,24 +1,6 @@
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/111864893-a457fd00-899e-11eb-9f05-f4b88987541d.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b755fdd-d5b2-4dd8-a70f-3488032cb854/deploy-status)](https://app.netlify.com/sites/determined-shannon-bcd95d/deploys)
 
-<h6 align='center'>
-<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
-</h6>
-
-<h5 align='center'>
-<b>Lightweight version of <a href="https://github.com/antfu/vitesse">Vitesse</a></b>
-</h5>
-
-<br>
-
-## Dropped Features
-
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
+![alt text](https://github.com/voxoco/website/blob/main/public/assets/images/logo-footer.svg?raw=true)
 
 ## Features
 
