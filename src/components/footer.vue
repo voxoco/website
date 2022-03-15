@@ -66,7 +66,7 @@
       </div>
       <div class="mt-12 border-t border-voxo-gray-hr pt-8 items-center flex-wrap justify-center lg:flex">
         <div class="flex-none lg:flex-1 text-voxo-gray-footer-text text-center lg:text-left">
-          &copy 2021 VOXO, Inc. All rights reserved.
+          &copy 2022 VOXO, Inc. All rights reserved.
         </div>
         <div class="flex space-x-4 justify-center flex-none lg:flex-1 my-2 lg:my-0">
           <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-gray-400 hover:text-gray-500">
