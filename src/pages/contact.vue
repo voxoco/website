@@ -285,7 +285,7 @@ import JoinTeamPartial from '~/components/join-team-partial.vue'
 const locations = [
   {
     name: 'Hattiesburg, MS',
-    description: 'We are in Hattiesburg at 26 Town Center Square',
+    description: 'We are in Hattiesburg at 7217 US-98 Suite 40',
     href: '/hattiesburg',
     icon: '/assets/images/icons/flag-hattiesburg.svg',
   },
