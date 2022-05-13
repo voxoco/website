@@ -95,6 +95,18 @@
       "imageUrl": "/cms/media/website-profile-amy.png",
       "role": "Accountant",
       "bio": " "
+    },
+    {
+      "name": "Zach Grimm",
+      "imageUrl": "/cms/media/3.png",
+      "role": "Sales Engineer",
+      "bio": " "
+    },
+    {
+      "name": "Paul Vitrano",
+      "imageUrl": "/cms/media/4.png",
+      "role": "Sales Engineer",
+      "bio": " "
     }
   ]
 }
