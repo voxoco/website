@@ -21,25 +21,16 @@
 
   <!--  Team Members-->
   <div class="max-w-xl lg:max-w-7xl lg:px-8 mx-auto px-4 sm:px-6 pb-24">
-    <ul role="list" class="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-10 lg:gap-y-16 lg:space-y-0">
+    <ul role="list" class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8">
       <li v-for="person in people" :key="person.name">
-        <div class="space-y-4 sm:grid sm:grid-cols-4 sm:gap-6 sm:space-y-0 lg:gap-8">
-          <div class="h-0 aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-3 sm:col-span-2">
-            <img class="shadow-lg object-cover rounded-lg" :src="person.imageUrl" :alt="person.name" />
+        <div class="space-y-4">
+          <div class="aspect-w-3 aspect-h-2">
+            <img class="object-cover object-top shadow-lg rounded-lg" :src="person.imageUrl" :alt="person.name" />
           </div>
-          <div class="sm:col-span-2">
-            <div class="space-y-4">
-              <div class="text-2xl leading-6 font-medium space-y-1">
-                <h2>{{ person.name }}</h2>
-                <p class="text-lg font-poppinssemibold text-voxo-red">
-                  {{ person.role.toUpperCase() }}
-                </p>
-              </div>
-              <div class="text-sm">
-                <p>
-                  {{ person.bio }}
-                </p>
-              </div>
+          <div class="space-y-2">
+            <div class="text-2xl leading-6 font-medium space-y-1">
+              <h2>{{ person.name }}</h2>
+              <p class="text-lg font-poppinssemibold text-voxo-red">{{ person.role.toUpperCase() }}</p>
             </div>
           </div>
         </div>

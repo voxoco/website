@@ -40,11 +40,6 @@ const config = {
                   name: 'role',
                   widget: 'string',
                 },
-                {
-                  label: 'Bio',
-                  name: 'bio',
-                  widget: 'text',
-                },
               ],
             },
           ],
