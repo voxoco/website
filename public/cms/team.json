@@ -31,16 +31,16 @@
       "bio": "Tim is the VP of Operations, ensuring a smooth onboarding process once a customer chooses VOXO. Tim and his wife Lucy have three sons, and he spends his spare time archery hunting, grilling, and dabbling in music.\n\n"
     },
     {
-      "name": "Ervin Bauman",
-      "role": "VP of Customer Relations",
-      "bio": "Ervin enjoys hard work and challenges. He loves building personal relationships with his clients. Outside of work, Ervin is a pastor and enjoys doing life with his family.",
-      "imageUrl": "/cms/media/3.png"
-    },
-    {
       "name": "Josh Reed",
       "role": "COO",
       "bio": "Josh is an analytical thinker and skilled business strategist. Josh joined the VOXO cause with a passion for using business as a means to positively impact the lives of others. Josh is a principled leader and is passionate about remaining true to the VOXO values. Josh enjoys family, flying, and golf.",
       "imageUrl": "/cms/media/9.png"
+    },
+    {
+      "name": "Ervin Bauman",
+      "role": "VP of Customer Relations",
+      "bio": "Ervin enjoys hard work and challenges. He loves building personal relationships with his clients. Outside of work, Ervin is a pastor and enjoys doing life with his family.",
+      "imageUrl": "/cms/media/3.png"
     },
     {
       "name": "Joel Myrick",
@@ -55,10 +55,9 @@
       "role": "Lead Software Developer"
     },
     {
-      "name": "Noah Post",
-      "role": "Lead Customer Support",
-      "imageUrl": "/cms/media/20.png",
-      "bio": "Noah has a passion for helping people solve telecom problems with a focus on fixing the telecom industry. When not in front of a computer, you can find Noah on the tennis court, in the great outdoors, or enjoying fellowship with friends."
+      "name": "Brandon Smith",
+      "imageUrl": "/cms/media/18.png",
+      "role": "Software Engineer"
     },
     {
       "name": "Anthony Felipe",
@@ -73,16 +72,37 @@
       "imageUrl": "/cms/media/11.png"
     },
     {
+      "name": "Noah Post",
+      "role": "Lead Customer Support",
+      "imageUrl": "/cms/media/20.png",
+      "bio": "Noah has a passion for helping people solve telecom problems with a focus on fixing the telecom industry. When not in front of a computer, you can find Noah on the tennis court, in the great outdoors, or enjoying fellowship with friends."
+    },
+    {
+      "name": "Levi Burnham",
+      "imageUrl": "/cms/media/16.png",
+      "role": "Field Technician"
+    },
+    {
+      "name": "Amy Lott",
+      "imageUrl": "/cms/media/1.png",
+      "role": "Accountant",
+      "bio": " "
+    },
+    {
       "name": "Seth Bigony",
-      "role": "Sales",
+      "role": "Sales Engineer",
       "imageUrl": "/cms/media/21.png",
       "bio": "Seth joined VOXO as the sales director during the summer of 2021 and is dedicated to helping grow lasting relationships with VOXO customers. He graduated magna cum laude from West Texas A&M and has a common passion for technology with his son, Blake. Seth is married and has 5 children."
     },
     {
-      "name": "Stephen Dindinger",
-      "role": "VP of PA",
-      "bio": "Stephen manages the VOXO PA operations and enjoys relationship building. Stephen is married and has 3 kids. He enjoys the outdoors in his spare time.",
-      "imageUrl": "/cms/media/stephen.png"
+      "name": "Paul Vitrano",
+      "imageUrl": "/cms/media/6.png",
+      "role": "Sales Engineer"
+    },
+    {
+      "name": "Zach Grimm",
+      "imageUrl": "/cms/media/4.png",
+      "role": "Sales Engineer"
     },
     {
       "name": "Nate Hochstetler",
@@ -91,10 +111,10 @@
       "imageUrl": "/cms/media/19.png"
     },
     {
-      "name": "Amy Lott",
-      "imageUrl": "/cms/media/1.png",
-      "role": "Accountant",
-      "bio": " "
+      "name": "Stephen Dindinger",
+      "role": "VP of PA",
+      "bio": "Stephen manages the VOXO PA operations and enjoys relationship building. Stephen is married and has 3 kids. He enjoys the outdoors in his spare time.",
+      "imageUrl": "/cms/media/stephen.png"
     }
   ]
 }
