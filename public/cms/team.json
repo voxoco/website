@@ -19,6 +19,12 @@
       "imageUrl": "/cms/media/13.png"
     },
     {
+      "name": "Josh Reed",
+      "role": "COO",
+      "bio": "Josh is an analytical thinker and skilled business strategist. Josh joined the VOXO cause with a passion for using business as a means to positively impact the lives of others. Josh is a principled leader and is passionate about remaining true to the VOXO values. Josh enjoys family, flying, and golf.",
+      "imageUrl": "/cms/media/9.png"
+    },
+    {
       "name": "Nick Kelsoe",
       "role": "VP of Sales",
       "bio": "Nick has been a long-time strategic partner of VOXO, starting the first remote VOXO location in Mobile, AL. Nick is a Christ follower and family man who loves building relationships and growing VOXO. He has a passion for discipleship and has been involved in youth ministry.",
@@ -31,12 +37,6 @@
       "bio": "Tim is the VP of Operations, ensuring a smooth onboarding process once a customer chooses VOXO. Tim and his wife Lucy have three sons, and he spends his spare time archery hunting, grilling, and dabbling in music.\n\n"
     },
     {
-      "name": "Josh Reed",
-      "role": "COO",
-      "bio": "Josh is an analytical thinker and skilled business strategist. Josh joined the VOXO cause with a passion for using business as a means to positively impact the lives of others. Josh is a principled leader and is passionate about remaining true to the VOXO values. Josh enjoys family, flying, and golf.",
-      "imageUrl": "/cms/media/9.png"
-    },
-    {
       "name": "Ervin Bauman",
       "role": "VP of Customer Relations",
       "bio": "Ervin enjoys hard work and challenges. He loves building personal relationships with his clients. Outside of work, Ervin is a pastor and enjoys doing life with his family.",
@@ -47,6 +47,12 @@
       "imageUrl": "/cms/media/joel-updatedd.png",
       "bio": "Since 2017, Joel has worked to make sure VOXO's customers satisfaction comes first. Joel is married to the #1 who has given him 3 wonderful children. His passion is coaching! He has been coaching little league baseball for over 5 years.\n",
       "role": "Account Manager"
+    },
+    {
+      "name": "Amy Lott",
+      "imageUrl": "/cms/media/1.png",
+      "role": "Accountant",
+      "bio": " "
     },
     {
       "name": "James Harrod",
@@ -81,12 +87,6 @@
       "name": "Levi Burnham",
       "imageUrl": "/cms/media/16.png",
       "role": "Field Technician"
-    },
-    {
-      "name": "Amy Lott",
-      "imageUrl": "/cms/media/1.png",
-      "role": "Accountant",
-      "bio": " "
     },
     {
       "name": "Seth Bigony",
