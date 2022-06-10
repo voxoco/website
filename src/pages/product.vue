@@ -231,7 +231,7 @@
           </a>
         </div>
       </div>
-      <iframe height="1000" class="mx-auto pt-12 w-full" src="https://isoflow.io/project/cknuw4pyddjjq0738cnikqcbv"></iframe>
+      <iframe height="1000" class="mx-auto pt-12 w-full" src="https://isoflow.io/app/project/cknuw4pyddjjq0738cnikqcbv"></iframe>
     </div>
   </div>
 </template>
