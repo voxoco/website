@@ -43,12 +43,6 @@
       "imageUrl": "/cms/media/3.png"
     },
     {
-      "name": "Joel Myrick",
-      "imageUrl": "/cms/media/joel-updatedd.png",
-      "bio": "Since 2017, Joel has worked to make sure VOXO's customers satisfaction comes first. Joel is married to the #1 who has given him 3 wonderful children. His passion is coaching! He has been coaching little league baseball for over 5 years.\n",
-      "role": "Account Manager"
-    },
-    {
       "name": "Amy Lott",
       "imageUrl": "/cms/media/1.png",
       "role": "Accountant",
@@ -97,11 +91,6 @@
     {
       "name": "Paul Vitrano",
       "imageUrl": "/cms/media/6.png",
-      "role": "Sales Engineer"
-    },
-    {
-      "name": "Zach Grimm",
-      "imageUrl": "/cms/media/4.png",
       "role": "Sales Engineer"
     },
     {
