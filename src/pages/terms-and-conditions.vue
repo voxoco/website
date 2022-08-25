@@ -66,10 +66,7 @@
         that customer incurs while using VOXO’s service.
       </p>
       <p class="text-voxo-gray pb-6 pt-2">
-        3.4. VOXO services are not intended for use as a primary telephone source for business or residential users.
-      </p>
-      <p class="text-voxo-gray pb-6 pt-2">
-        3.5b. VOXO retail accounts are limited to a maximum of 10 simultaneous inbound and outbound calls. These limits
+        3.5b. VOXO residential accounts are limited to a maximum of 10 simultaneous inbound and outbound calls. These limits
         may be increased per request at the discretion of VOXO.
       </p>
       <p class="text-voxo-gray pb-6 pt-2">
