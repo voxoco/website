@@ -3,7 +3,7 @@
     {
       "readTime": "12",
       "summary": "This is the first blog post on the new VOXO website!!",
-      "authorPhoto": "https://voxo-website.pages.dev/cms/media/james.png",
+      "authorPhoto": "/cms/media/james.png",
       "author": "Dr. James Harrod",
       "slug": "new-website",
       "date": "Oct 07, 2021",
