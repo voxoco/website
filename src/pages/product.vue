@@ -66,14 +66,40 @@
           </div>
           <div class="mt-12 sm:mt-16 lg:mt-0">
             <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img class="bg-voxo-gray-light p-4 w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/public/assets/images/omnia-preview-light.svg" alt="OMNIA preview" />
+              <img class="w-full rounded-xl lg:absolute lg:left-0 lg:w-auto lg:max-w-7xl lg:-mt-31" src="/public/assets/images/queue-dash.png" alt="Queue Dash preview" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="visual-call-flow" class="relative mt-6 mb-0 lg:mt-38 lg:mb-72">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+            <div>
+              <div class="lg:mx-auto lg:max-w-7xl lg:pr-8">
+                <img src="/public/assets/images/icons/icon-cfd.svg" alt="Call Center" />
+              </div>
+              <div class="mt-6">
+                <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl">
+                  Visual Designer
+                </h1>
+                <p class="mt-4">
+                  Design complex call routing by simple drag and drop. The visual designer allows you to visually
+                  understand and control the way calls route through your operation. Simplicity and flexibility is the key
+                  when designing your communications platform.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+            <div class="pr-0 lg:pr-6 lg:px-0 lg:relative lg:h-full">
+              <img class="w-full mx-auto -mt-4 lg:absolute lg:right-0 lg:w-auto lg:max-w-3xl" src="/public/assets/images/cfd.png" alt="VOXO Mobility" />
             </div>
           </div>
         </div>
       </div>
       <div id="mobility" class="mt-6 mb-0 lg:my-38">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-1">
             <div>
               <div class="lg:mx-auto lg:max-w-7xl lg:pr-8">
                 <img src="/public/assets/images/icons/icon-mobility.svg" alt="Call Center" />
@@ -95,9 +121,9 @@
               </div>
             </div>
           </div>
-          <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+          <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-2">
             <div class="pr-0 lg:pr-6 lg:px-0 lg:relative lg:h-full">
-              <img class="w-3/4 mx-auto lg:absolute lg:right-0 lg:w-auto lg:max-w-none" src="/public/assets/images/mobility-image.svg" alt="VOXO Mobility" />
+              <img class="w-3/4 mx-auto -mt-5 lg:absolute lg:right-0 lg:w-auto lg:max-w-2xl" src="/public/assets/images/mobility-image.svg" alt="VOXO Mobility" />
             </div>
           </div>
         </div>
