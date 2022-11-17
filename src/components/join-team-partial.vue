@@ -20,7 +20,7 @@
                 You will frequently hear of our commitment to building relationships. It's integral to who we are. And a key part of how we build relationships is by adding real value to the lives of everyone we touch, whether clients or team members we are committed to adding value.
               </p>
               <div class="rounded-md">
-                <div class="hover:bg-voxo-red-dark shadow-md cursor-pointer my-10 font-einasemibold w-3/4 flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-red md:py-3 md:text-lg lg:mx-0" @click="open = true">
+                <div class="hover:bg-voxo-white shadow-sm cursor-pointer my-10 font-einasemibold w-full flex items-center justify-center border-transparent text-base font-medium rounded-md text-white bg-voxo-gray-dark hover:bg-white hover:text-voxo-gray-dark border hover:border-voxo-gray-dark transition duration-200 md:py-3 md:text-lg lg:mx-0" @click="open = true">
                   Explore Open Positions
                 </div>
               </div>

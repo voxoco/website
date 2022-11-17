@@ -12,12 +12,12 @@
           <span class="inline">Hattiesburg</span>
           <span class="inline text-voxo-red"> MS</span>
         </h1>
-        <p class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+        <p class="mt-3 max-w-md mx-auto text-lg sm:text-xl md:mt-5 md:max-w-3xl">
           Our Hattiesburg MS market is the original VOXO location and also where our corporate office resides. We recognize that our original customer relationships is what has allowed us to grow in new markets.
         </p>
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-          <div class="rounded-md shadow">
-            <a href="tel:6016025060" class="font-einasemibold w-full flex items-center justify-center px-8 py-3 border-transparent rounded-lg text-white bg-voxo-red md:py-3 md:text-lg hover:bg-voxo-red-dark">
+          <div class="rounded-md shadow-sm">
+            <a href="tel:6016025060" class="btn-call">
               Call This Location
             </a>
           </div>

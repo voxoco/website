@@ -16,8 +16,8 @@
           Our Mobile AL office focuses on the bay area and historical distinct specializing in the law and medical industry.
         </p>
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-          <div class="rounded-md shadow">
-            <a href="tel:2512140102" class="font-einasemibold w-full flex items-center justify-center px-8 py-3 border-transparent rounded-lg text-white bg-voxo-red md:py-3 md:text-lg hover:bg-voxo-red-dark">
+          <div class="rounded-md shadow-sm">
+            <a href="tel:2512140102" class="btn-call">
               Call This Location
             </a>
           </div>

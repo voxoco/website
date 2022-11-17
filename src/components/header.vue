@@ -89,17 +89,17 @@
             Contact
           </router-link>
 
-          <router-link
-            to="/blog"
-            class="text-base p-1 block"
-            :class="$route.name === 'blog' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
+          <a
+            href="https://docs.voxo.co/voxo-public/release-notes/whats-new"
+            class="text-base p-1 block font-eina"
+            target="_blank"
           >
-            Blog
-          </router-link>
+            What's New
+          </a>
         </PopoverGroup>
         <div class="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0">
-          <span class="inline-flex rounded-md shadow">
-            <a target="_blank" href="https://app.voxo.co" class="inline-flex items-center px-4 py-2 border-2 border-voxo-red text-base font-medium rounded-lg text-voxo-red font-einasemibold">
+          <span class="inline-flex">
+            <a target="_blank" href="https://app.voxo.co" class="inline-flex items-center py-2 px-4 border-1 border-transparent bg-voxo-gray-dark text-sm border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
               Log in
             </a>
           </span>
@@ -167,14 +167,13 @@
                   Contact
                 </router-link>
 
-                <router-link
-                  to="/blog"
-                  class="text-base p-1 block"
-                  :class="$route.name === 'blog' ? 'font-einasemibold text-voxo-gray-dark' : 'font-eina'"
-                  @click="hideMenu"
+                <a
+                  href="https://docs.voxo.co/voxo-public/release-notes/whats-new"
+                  class="text-base p-1 block font-eina"
+                  target="_blank"
                 >
-                  Blog
-                </router-link>
+                  What's New
+                </a>
               </nav>
             </div>
           </div>
@@ -188,7 +187,7 @@
               </router-link>
             </div>
             <div>
-              <a href="https://app.voxo.co" target="" class="w-full flex items-center justify-center px-4 py-2 border-2 border-voxo-red rounded-lg shadow-sm text-voxo-red font-einasemibold">
+              <a href="https://app.voxo.co" target="" class="w-full flex items-center justify-center py-2 px-4 border-1 border-transparent bg-voxo-gray-dark text-sm border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
                 Log in
               </a>
             </div>

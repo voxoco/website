@@ -15,8 +15,8 @@
           Learn more about our awesome product and how we can help your business communicate.
         </p>
         <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-9">
-          <div class="rounded-md shadow-md">
-            <router-link to="/contact" class="w-full flex items-center justify-center px-8 py-3 border-transparent text-base font-medium rounded-lg text-white bg-voxo-red md:py-3 md:text-lg hover:bg-voxo-red-dark">
+          <div class="rounded-md shadow-sm">
+            <router-link to="/contact" class="w-full flex items-center justify-center px-8 py-3 border-transparent border text-base font-medium rounded-md text-white bg-voxo-gray-dark md:py-2 md:px-6 md:text-lg hover:bg-white hover:text-voxo-gray-dark hover:border-black transition duration-200">
               Get started
             </router-link>
           </div>

@@ -64,6 +64,10 @@ h2{
     disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
 }
 
+.btn-call {
+  @apply font-einasemibold w-full flex items-center justify-center px-6 py-3 border-transparent rounded-md text-white bg-voxo-gray-dark md:py-3 md:text-lg hover:bg-white hover:text-voxo-gray-dark border hover:border-voxo-gray-dark transition duration-200;
+}
+
 .icon-btn {
   @apply inline-block cursor-pointer select-none
     opacity-75 transition duration-200 ease-in-out

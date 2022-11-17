@@ -83,51 +83,51 @@
                   </h1>
                   <div class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8 ">
                     <div>
-                      <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
+                      <label for="first-name" class="block text-sm font-medium text-black">First name</label>
                       <input
                         id="first-name"
                         v-model="contactForm.firstName"
                         type="text"
                         name="first-name"
-                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        class="mt-1 focus:ring-black focus:border-black block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                     <div>
-                      <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
+                      <label for="last-name" class="block text-sm font-medium text-black">Last name</label>
                       <input
                         id="last-name"
                         v-model="contactForm.lastName"
                         type="text"
                         name="last-name"
                         autocomplete="family-name"
-                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        class="mt-1 focus:ring-black focus:border-black block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                     <div>
-                      <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                      <label for="email" class="block text-sm font-medium text-black">Email</label>
                       <input
                         id="email"
                         v-model="contactForm.email"
                         name="email"
                         type="email"
                         autocomplete="email"
-                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        class="mt-1 focus:ring-black focus:border-black block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                     <div>
-                      <label for="phone" class="block text-sm font-medium text-gray-700">Phone</label>
+                      <label for="phone" class="block text-sm font-medium text-black">Phone</label>
                       <input
                         id="phone"
                         v-model="contactForm.phone"
                         type="text"
                         name="phone"
                         autocomplete="tel"
-                        class="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                        class="mt-1 focus:ring-black focus:border-black block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                       />
                     </div>
                     <div class="sm:col-span-2">
                       <div class="flex justify-between">
-                        <label for="message" class="text-sm text-gray-700">Message</label>
+                        <label for="message" class="text-sm text-black">Message</label>
                         <span id="message-max" class="text-sm text-gray-700">Max. 500 characters</span>
                       </div>
                       <div class="mt-1">
@@ -136,7 +136,7 @@
                           v-model="contactForm.message"
                           name="message"
                           rows="4"
-                          class="focus:ring-red-500 focus:border-red-500 py-3 px-4 block border-gray-300 w-full rounded-md"
+                          class="focus:ring-black focus:border-black py-3 px-4 block border-gray-300 w-full rounded-md"
                           aria-describedby="message-max"
                         />
                       </div>
@@ -144,7 +144,7 @@
                     <div class="sm:col-span-2 sm:flex sm:justify-end">
                       <button
                         type="button"
-                        class="hover:bg-voxo-red-dark shadow-md font-einasemibold mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-lg text-white bg-voxo-red sm:w-auto"
+                        class="btn-call"
                         @click="submitForm"
                       >
                         Submit

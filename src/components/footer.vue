@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <footer class="relative z-20 bg-voxo-gray-header py-18" aria-labelledby="footer-heading">
+  <footer class="relative z-20 bg-voxo-gray-light border-t border-voxo-gray-hr py-14" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">
       Footer
     </h2>
@@ -12,7 +12,7 @@
         <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-footer-header tracking-wider uppercase">
                 Solutions
               </h1>
               <ul role="list" class="mt-4 space-y-4">
@@ -24,7 +24,7 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-footer-header tracking-wider uppercase">
                 Support
               </h1>
               <ul role="list" class="mt-4 space-y-4">
@@ -38,7 +38,7 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-footer-header tracking-wider uppercase">
                 Company
               </h1>
               <ul role="list" class="mt-4 space-y-4">
@@ -50,7 +50,7 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h1 class="text-sm text-voxo-gray-grad-dark tracking-wider uppercase">
+              <h1 class="text-sm text-voxo-gray-footer-header tracking-wider uppercase">
                 Legal
               </h1>
               <ul role="list" class="mt-4 space-y-4">
@@ -64,12 +64,12 @@
           </div>
         </div>
       </div>
-      <div class="mt-12 border-t border-voxo-gray-hr pt-8 items-center flex-wrap justify-center lg:flex">
+      <div class="mt-8 pt-8 items-center flex-wrap justify-center lg:flex">
         <div class="flex-none lg:flex-1 text-voxo-gray-footer-text text-center lg:text-left">
           &copy 2022 VOXO, Inc. All rights reserved.
         </div>
         <div class="flex space-x-4 justify-center flex-none lg:flex-1 my-2 lg:my-0">
-          <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-gray-400 hover:text-gray-500">
+          <a v-for="item in navigation.social" :key="item.name" :href="item.href" target="_blank" class="text-voxo-gray-footer-text hover:text-gray-500">
             <span class="sr-only">{{ item.name }}</span>
             <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
           </a>

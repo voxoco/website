@@ -16,8 +16,8 @@
           Our Houston location resides in the Woodlands and has allowed us to expand into a white-label PBX provider serving multiple Internet and IT companies.
         </p>
         <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
-          <div class="rounded-md shadow">
-            <a href="tel:8329007801" class="font-einasemibold w-full flex items-center justify-center px-8 py-3 border-transparent rounded-lg text-white bg-voxo-red md:py-3 md:text-lg hover:bg-voxo-red-dark">
+          <div class="rounded-md shadow-sm">
+            <a href="tel:8329007801" class="btn-call">
               Call This Location
             </a>
           </div>
