@@ -73,7 +73,7 @@
       </div>
       <div id="visual-call-flow" class="relative mt-6 mb-0 lg:mt-38 lg:mb-72">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 pt-12">
             <div>
               <div class="lg:mx-auto lg:max-w-7xl lg:pr-8">
                 <img src="/public/assets/images/icons/icon-cfd.svg" alt="Call Center" />
@@ -97,9 +97,9 @@
           </div>
         </div>
       </div>
-      <div id="mobility" class="mt-6 mb-0 lg:my-38">
+      <div id="mobility" class="relative mt-6 mb-0 lg:mt-38 lg:mb-72">
         <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-1">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-1 mt-12">
             <div>
               <div class="lg:mx-auto lg:max-w-7xl lg:pr-8">
                 <img src="/public/assets/images/icons/icon-mobility.svg" alt="Call Center" />
@@ -124,6 +124,31 @@
           <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-2">
             <div class="pr-0 lg:pr-6 lg:px-0 lg:relative lg:h-full">
               <img class="w-3/4 mx-auto -mt-5 lg:absolute lg:right-0 lg:w-auto lg:max-w-2xl" src="/public/assets/images/mobility-image.svg" alt="VOXO Mobility" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="salesforce-integration" class="relative mt-6 mb-0 lg:mt-38 lg:mb-52">
+        <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+          <div class="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2 mt-12">
+            <div>
+              <div class="lg:mx-auto lg:max-w-7xl lg:pr-8 pt-16">
+                <img src="/public/assets/images/icons/sf-icon.svg" alt="Salesforce Integration" />
+              </div>
+              <div class="mt-6">
+                <h1 class="text-3xl font-bold text-voxo-gray-header tracking-tight md:text-5xl">
+                  Salesforce Integration
+                </h1>
+                <p class="mt-4">
+                  Our intuitive Salesforce dialer is the most customizable and easy to use integration we've come across in the industry.
+                  Custom actions within the dialer allow you to run custom Salesforce workflows and screen-pops for ultimate efficiency.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+            <div class="pr-0 lg:pr-6 lg:px-0 lg:relative lg:h-full">
+              <img class="w-full mx-auto -mt-4 lg:absolute lg:-right-24 lg:w-auto lg:max-w-3xl" src="/public/assets/images/salesforce.svg" alt="Salesforce Integration" />
             </div>
           </div>
         </div>
