@@ -43,7 +43,7 @@
                     <dt><span class="sr-only">Email</span></dt>
                     <dd class="flex text-base">
                       <MailIcon class="flex-shrink-0 w-6 h-6" aria-hidden="true" />
-                      <a href="mailto:support@voxo.co"><span class="ml-3 font-einasemibold">support@voxo.co</span></a>
+                      <a id="intercomPopup" href="mailto:sales@voxo.co"><span class="ml-3 font-einasemibold">Talk to sales</span></a>
                     </dd>
                   </dl>
                   <ul role="list" class="mt-8 flex space-x-12">

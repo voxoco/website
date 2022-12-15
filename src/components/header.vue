@@ -99,8 +99,13 @@
         </PopoverGroup>
         <div class="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0">
           <span class="inline-flex">
-            <a target="_blank" href="https://app.voxo.co" class="inline-flex items-center py-2 px-4 border-1 border-transparent bg-voxo-gray-dark text-sm border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
-              Log in
+            <a id="intercomPopup" href="mailto:sales@voxo.co" class="inline-flex items-center justify-center py-2 px-4 mr-6 border-1 border-transparent bg-voxo-red text-sm border-voxo-red hover:border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
+              Demo
+            </a>
+          </span>
+          <span class="inline-flex">
+            <a target="_blank" href="https://app.voxo.co" class="inline-flex items-center justify-center py-2 px-4 border-1 border-transparent bg-voxo-gray-dark text-sm border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
+              Login
             </a>
           </span>
         </div>
@@ -186,10 +191,17 @@
                 <span class="px-2">{{ item.name }}</span>
               </router-link>
             </div>
-            <div>
-              <a href="https://app.voxo.co" target="" class="w-full flex items-center justify-center py-2 px-4 border-1 border-transparent bg-voxo-gray-dark text-sm border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
-                Log in
-              </a>
+            <div class="flex items-center">
+              <span class="inline-flex w-full">
+                <a id="intercomPopup" href="mailto:sales@voxo.co" class="w-full inline-flex items-center justify-center py-2 px-4 mr-4 border-1 border-transparent bg-voxo-red text-sm border-voxo-red hover:border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
+                  Demo
+                </a>
+              </span>
+              <span class="inline-flex w-full">
+                <a href="https://app.voxo.co" target="" class="w-full inline-flex items-center justify-center py-2 px-4 border-1 border-transparent bg-voxo-gray-dark text-sm border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
+                  Login
+                </a>
+              </span>
             </div>
           </div>
         </div>
