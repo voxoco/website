@@ -91,19 +91,12 @@
     {
       "name": "Paul Vitrano",
       "imageUrl": "/cms/media/6.png",
-      "role": "Sales Engineer"
+      "role": "Director of Business Development "
     },
     {
-      "name": "Nate Hochstetler",
-      "role": "PA Investing Partner",
-      "bio": "Nate shares a common mission of making a difference in his daily encounters with people. As a man of faith, he has found the meaning of life. Nate values holding on to things that are not bought, and giving away things he can't keep. He is a husband and father of 4.",
-      "imageUrl": "/cms/media/19.png"
-    },
-    {
-      "name": "Stephen Dindinger",
-      "role": "VP of PA",
-      "bio": "Stephen manages the VOXO PA operations and enjoys relationship building. Stephen is married and has 3 kids. He enjoys the outdoors in his spare time.",
-      "imageUrl": "/cms/media/stephen.png"
+      "name": "Mike Ayon",
+      "imageUrl": "/cms/media/26.png",
+      "role": "Partner Sales Manager"
     }
   ]
 }
