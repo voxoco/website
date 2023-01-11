@@ -78,6 +78,16 @@
       "bio": "Noah has a passion for helping people solve telecom problems with a focus on fixing the telecom industry. When not in front of a computer, you can find Noah on the tennis court, in the great outdoors, or enjoying fellowship with friends."
     },
     {
+      "name": "Jay Pathak",
+      "imageUrl": "/cms/media/21.png",
+      "role": "Business Development Rep"
+    },
+    {
+      "name": "Michael Whitney",
+      "role": "Intermediate Developer ",
+      "imageUrl": "/cms/media/untitled-design-2-.png"
+    },
+    {
       "name": "Levi Burnham",
       "imageUrl": "/cms/media/16.png",
       "role": "Field Technician"
@@ -89,6 +99,11 @@
       "bio": "Seth joined VOXO as the sales director during the summer of 2021 and is dedicated to helping grow lasting relationships with VOXO customers. He graduated magna cum laude from West Texas A&M and has a common passion for technology with his son, Blake. Seth is married and has 5 children."
     },
     {
+      "name": "Peter Maderos",
+      "imageUrl": "/cms/media/22.png",
+      "role": "Sr. Account Executive "
+    },
+    {
       "name": "Paul Vitrano",
       "imageUrl": "/cms/media/6.png",
       "role": "Director of Business Development "
@@ -97,6 +112,21 @@
       "name": "Mike Ayon",
       "imageUrl": "/cms/media/26.png",
       "role": "Partner Sales Manager"
+    },
+    {
+      "name": "Brandon Yawn",
+      "imageUrl": "/cms/media/24.png",
+      "role": "Junior Developer"
+    },
+    {
+      "name": "Zach Maderos",
+      "role": "Business Development Rep",
+      "imageUrl": "/cms/media/23.png"
+    },
+    {
+      "name": "Drake Drukenmiller ",
+      "role": "Business Development Rep",
+      "imageUrl": "/cms/media/25.png"
     }
   ]
 }
