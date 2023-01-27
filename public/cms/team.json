@@ -60,12 +60,6 @@
       "role": "Software Engineer"
     },
     {
-      "name": "Anthony Felipe",
-      "imageUrl": "/cms/media/17.png",
-      "role": "Customer Support",
-      "bio": "Anthony is a Christ-loving husband and father of three. He's the best benchwarmer that church league basketball has ever seen. He is a military veteran and a tremendous asset to the VOXO team with humility being his most valuable asset."
-    },
-    {
       "name": "Daniel Charpie",
       "role": "Customer Support",
       "bio": "Daniel has a knack for problem solving and enjoys helping VOXO customers experience a level of service that is unmatched. Daniel is married, from Alabama, a military veteran, and enjoys video games.",
@@ -127,6 +121,11 @@
       "name": "Drake Drukenmiller ",
       "role": "Business Development Rep",
       "imageUrl": "/cms/media/untitled-design-3-.png"
+    },
+    {
+      "name": "Blake Seymour",
+      "role": "Customer Support",
+      "imageUrl": "/cms/media/blake-headshot-1.png"
     }
   ]
 }
