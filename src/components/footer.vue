@@ -108,7 +108,7 @@ const navigation = {
     { name: 'Call Us', href: 'tel:6016025060' },
     { name: 'Documentation', href: 'https://docs.voxo.co' },
     { name: 'Support', href: 'https://docs.voxo.co' },
-    { name: 'API Status', href: '#' },
+    { name: 'Status', href: 'https://status.voxo.co' },
   ],
   company: [
     { name: 'About', href: '/team' },
