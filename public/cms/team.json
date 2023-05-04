@@ -121,6 +121,16 @@
       "name": "Blake Seymour",
       "role": "Customer Support",
       "imageUrl": "/cms/media/untitled-design-4-.png"
+    },
+    {
+      "name": "Jared Quinn",
+      "imageUrl": "/cms/media/jared-q.png",
+      "role": "Business Development Rep"
+    },
+    {
+      "name": "JP Jones",
+      "imageUrl": "/cms/media/jp-jones.png",
+      "role": "Field Technician "
     }
   ]
 }
