@@ -116,6 +116,7 @@ const navigation = {
     { name: 'Our Team', href: '/team' },
     { name: 'Jobs', href: '/contact' },
     { name: 'Changelog', href: 'https://docs.voxo.co/voxo-public/release-notes/whats-new' },
+    { name: 'Partners', href: '/partners' },
   ],
   legal: [
     { name: 'Privacy', href: '/privacy-policy' },
