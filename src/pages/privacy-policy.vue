@@ -102,6 +102,13 @@
         We do not include or offer third-party products or services on our website.
       </p>
 
+      <h1 id="google" class="text-2xl font-einabold">
+        Google API Services User Data
+      </h1>
+      <p class="text-voxo-gray pb-6 pt-2">
+        VOXO's use and transfer to any other app of information received from Google APIs will adhere to <a class="underline" href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.
+      </p>
+
       <h1 class="text-2xl font-einabold">
         California Online Privacy Protection Act
       </h1>
@@ -258,6 +265,7 @@
     <p class="text-voxo-gray pb-6 pt-2 text-lg">
       Last Edited on 2018-03-15
     </p>
+
   </div>
 </template>
 
