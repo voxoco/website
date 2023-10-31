@@ -131,6 +131,46 @@
       "name": "Jessica Jordan",
       "imageUrl": "/cms/media/35.png",
       "role": "Business Development Rep"
+    },
+    {
+      "name": "Kaitlin Sellers",
+      "imageUrl": "/cms/media/43.png",
+      "role": "BDR Manager"
+    },
+    {
+      "name": "Gabby Lormand",
+      "imageUrl": "/cms/media/36.png",
+      "role": "Business Development Rep"
+    },
+    {
+      "name": "Phillip Powe",
+      "imageUrl": "/cms/media/37.png",
+      "role": "Business Development Rep"
+    },
+    {
+      "name": "Neal Bontrager",
+      "role": "Business Development Rep",
+      "imageUrl": "/cms/media/38.png"
+    },
+    {
+      "name": "Russ Singleton  ",
+      "imageUrl": "/cms/media/42.png",
+      "role": "VP of Sales"
+    },
+    {
+      "name": "Cameron Cole",
+      "imageUrl": "/cms/media/39.png",
+      "role": "Field Technician "
+    },
+    {
+      "name": "Michael White",
+      "imageUrl": "/cms/media/40.png",
+      "role": "VP of Operations"
+    },
+    {
+      "name": "Brennen Hodge",
+      "imageUrl": "/cms/media/41.png",
+      "role": "VP of Product"
     }
   ]
 }
