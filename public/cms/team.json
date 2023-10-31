@@ -83,54 +83,14 @@
       "imageUrl": "/cms/media/27.png"
     },
     {
-      "name": "Levi Burnham",
-      "imageUrl": "/cms/media/16.png",
-      "role": "Project Manager"
-    },
-    {
-      "name": "Paul Vitrano",
-      "imageUrl": "/cms/media/6.png",
-      "role": "ACCOUNT EXECUTIVE"
-    },
-    {
-      "name": "Mike Ayon",
-      "imageUrl": "/cms/media/26.png",
-      "role": "Partner Sales Manager"
-    },
-    {
-      "name": "Brandon Yawn",
-      "imageUrl": "/cms/media/24.png",
-      "role": "Intermediate Software Developer"
-    },
-    {
-      "name": "Zach Maderos",
-      "role": "Business Development Rep",
-      "imageUrl": "/cms/media/23.png"
-    },
-    {
-      "name": "Drake Druckenmiller ",
-      "role": "Business Development Rep",
-      "imageUrl": "/cms/media/untitled-design-3-.png"
-    },
-    {
-      "name": "Blake Seymour",
-      "role": "Customer Support",
-      "imageUrl": "/cms/media/untitled-design-4-.png"
-    },
-    {
-      "name": "Jared Quinn",
-      "imageUrl": "/cms/media/jw.png",
-      "role": "FIELD TECHNICIAN "
+      "name": "Russ Singleton  ",
+      "imageUrl": "/cms/media/42.png",
+      "role": "VP of Sales"
     },
     {
       "name": "JP Jones",
       "imageUrl": "/cms/media/jp.png",
       "role": "Field Technician "
-    },
-    {
-      "name": "Russ Singleton  ",
-      "imageUrl": "/cms/media/42.png",
-      "role": "VP of Sales"
     },
     {
       "name": "Kaitlin Sellers",
@@ -143,9 +103,19 @@
       "role": "Business Development Rep"
     },
     {
+      "name": "Jared Quinn",
+      "imageUrl": "/cms/media/jw.png",
+      "role": "FIELD TECHNICIAN "
+    },
+    {
       "name": "Gabby Lormand",
       "imageUrl": "/cms/media/36.png",
       "role": "Business Development Rep"
+    },
+    {
+      "name": "Drake Druckenmiller ",
+      "role": "Business Development Rep",
+      "imageUrl": "/cms/media/untitled-design-3-.png"
     },
     {
       "name": "Phillip Powe",
@@ -153,9 +123,19 @@
       "role": "Business Development Rep"
     },
     {
+      "name": "Zach Maderos",
+      "role": "Business Development Rep",
+      "imageUrl": "/cms/media/23.png"
+    },
+    {
       "name": "Neal Bontrager",
       "role": "Business Development Rep",
       "imageUrl": "/cms/media/38.png"
+    },
+    {
+      "name": "Brandon Yawn",
+      "imageUrl": "/cms/media/24.png",
+      "role": "Intermediate Software Developer"
     },
     {
       "name": "Cameron Cole",
@@ -163,9 +143,19 @@
       "role": "Field Technician "
     },
     {
+      "name": "Mike Ayon",
+      "imageUrl": "/cms/media/26.png",
+      "role": "Partner Sales Manager"
+    },
+    {
       "name": "Michael White",
       "imageUrl": "/cms/media/40.png",
       "role": "VP of Operations"
+    },
+    {
+      "name": "Blake Seymour",
+      "role": "Customer Support",
+      "imageUrl": "/cms/media/untitled-design-4-.png"
     },
     {
       "name": "Brennen Hodge",
@@ -173,9 +163,19 @@
       "role": "VP of Product"
     },
     {
+      "name": "Levi Burnham",
+      "imageUrl": "/cms/media/16.png",
+      "role": "Project Manager"
+    },
+    {
       "name": "Roland Schlabach",
       "role": "Business Development Rep ",
       "imageUrl": "/cms/media/nothing-2.png"
+    },
+    {
+      "name": "Paul Vitrano",
+      "imageUrl": "/cms/media/6.png",
+      "role": "ACCOUNT EXECUTIVE"
     },
     {
       "name": "Daniel Harless",
