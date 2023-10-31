@@ -99,8 +99,8 @@
         </PopoverGroup>
         <div class="hidden lg:flex items-center justify-end lg:flex-1 lg:w-0">
           <span class="inline-flex">
-            <a id="intercomPopup" href="mailto:sales@voxo.co" class="inline-flex items-center justify-center py-2 px-4 mr-6 border-1 border-transparent bg-voxo-red text-sm border-voxo-red hover:border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
-              Demo
+            <a href="https://calendly.com/nickkelsoe/demo-with-voxo" target="_blank" class="inline-flex items-center justify-center py-2 px-4 mr-6 border-1 border-transparent bg-voxo-red text-sm border-voxo-red hover:border-voxo-gray-dark text-base hover:text-voxo-gray-dark hover:bg-white shadow-sm rounded-md text-white font-einasemibold transition duration-200">
+              Book A Demo
             </a>
           </span>
           <span class="inline-flex">
