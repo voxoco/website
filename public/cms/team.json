@@ -8,7 +8,7 @@
     },
     {
       "name": "Phil Watson ",
-      "role": "CEO",
+      "role": "Chairman",
       "imageUrl": "/cms/media/10.png",
       "bio": "Phil is a visionary with a passion for using his platform to help people find purpose in their work. He loves to challenge the status quo and is an outside-the-box thinker. Phil is a follower of Jesus and enjoys spending time with his wife and three children. His hobbies include - Pigeon Racing, hunting, and ping-pong."
     },
@@ -20,20 +20,20 @@
     },
     {
       "name": "Josh Reed",
-      "role": "COO",
+      "role": "CEO",
       "bio": "Josh is an analytical thinker and skilled business strategist. Josh joined the VOXO cause with a passion for using business as a means to positively impact the lives of others. Josh is a principled leader and is passionate about remaining true to the VOXO values. Josh enjoys family, flying, and golf.",
       "imageUrl": "/cms/media/9.png"
     },
     {
       "name": "Nick Kelsoe",
-      "role": "Head of Direct Sales",
+      "role": "VP of Sales",
       "bio": "Nick has been a long-time strategic partner of VOXO, starting the first remote VOXO location in Mobile, AL. Nick is a Christ follower and family man who loves building relationships and growing VOXO. He has a passion for discipleship and has been involved in youth ministry.",
       "imageUrl": "/cms/media/8.png"
     },
     {
       "name": "Tim Watson",
       "imageUrl": "/cms/media/tim-updated.png",
-      "role": "Account Executive ",
+      "role": "Account Executive",
       "bio": "Tim is the VP of Operations, ensuring a smooth onboarding process once a customer chooses VOXO. Tim and his wife Lucy have three sons, and he spends his spare time archery hunting, grilling, and dabbling in music.\n\n"
     },
     {
@@ -46,51 +46,40 @@
       "name": "Amy Lott",
       "imageUrl": "/cms/media/1.png",
       "role": "Accountant",
-      "bio": " "
+      "bio": ""
     },
     {
       "name": "James Harrod",
       "imageUrl": "/cms/media/1662.png",
       "bio": "James joined VOXO in 2019 bringing experience in software development. A problem solver at heart, he aims to leverage technology to solve complex problems on the mission of fixing telecom. He is married and has two children. In his free time, James enjoys time with family, video games, and continued education and R&D.",
-      "role": "Lead Software Developer"
+      "role": "Lead Software Engineer"
     },
     {
       "name": "Brandon Smith",
       "imageUrl": "/cms/media/15.png",
-      "role": "Software Engineer"
+      "role": "AI Product"
     },
     {
       "name": "Daniel Charpie",
-      "role": "Customer Support",
-      "bio": "Daniel has a knack for problem solving and enjoys helping VOXO customers experience a level of service that is unmatched. Daniel is married, from Alabama, a military veteran, and enjoys video games.",
+      "role": "Software Engineer",
+      "bio": "Daniel has a knack for problem solving and works designing software that drives the VOXO product. Daniel is married, from Alabama, a military veteran, and enjoys video games.",
       "imageUrl": "/cms/media/11.png"
     },
     {
       "name": "Noah Post",
-      "role": "Lead Customer Support",
+      "role": "Telecom Engineer",
       "imageUrl": "/cms/media/20.png",
       "bio": "Noah has a passion for helping people solve telecom problems with a focus on fixing the telecom industry. When not in front of a computer, you can find Noah on the tennis court, in the great outdoors, or enjoying fellowship with friends."
     },
     {
-      "name": "Seth Bigony",
-      "role": "Sr. Account Executive ",
-      "imageUrl": "/cms/media/18.png",
-      "bio": "Seth joined VOXO as the sales director during the summer of 2021 and is dedicated to helping grow lasting relationships with VOXO customers. He graduated magna cum laude from West Texas A&M and has a common passion for technology with his son, Blake. Seth is married and has 5 children."
-    },
-    {
       "name": "Michael Whitney",
-      "role": "Intermediate Developer ",
+      "role": "Software Engineer",
       "imageUrl": "/cms/media/27.png"
-    },
-    {
-      "name": "Russ Singleton  ",
-      "imageUrl": "/cms/media/42.png",
-      "role": "VP of Sales"
     },
     {
       "name": "JP Jones",
       "imageUrl": "/cms/media/jp.png",
-      "role": "Field Technician "
+      "role": "Customer Onboarding"
     },
     {
       "name": "Kaitlin Sellers",
@@ -105,7 +94,7 @@
     {
       "name": "Jared Quinn",
       "imageUrl": "/cms/media/jw.png",
-      "role": "FIELD TECHNICIAN "
+      "role": "Field Technician"
     },
     {
       "name": "Gabby Lormand",
@@ -114,7 +103,7 @@
     },
     {
       "name": "Drake Druckenmiller ",
-      "role": "Business Development Rep",
+      "role": "Account Executive",
       "imageUrl": "/cms/media/untitled-design-3-.png"
     },
     {
@@ -135,12 +124,7 @@
     {
       "name": "Brandon Yawn",
       "imageUrl": "/cms/media/24.png",
-      "role": "Intermediate Software Developer"
-    },
-    {
-      "name": "Cameron Cole",
-      "imageUrl": "/cms/media/39.png",
-      "role": "Field Technician "
+      "role": "Software Engineer"
     },
     {
       "name": "Mike Ayon",
@@ -165,17 +149,12 @@
     {
       "name": "Levi Burnham",
       "imageUrl": "/cms/media/16.png",
-      "role": "Project Manager"
+      "role": "Hardware Support"
     },
     {
       "name": "Roland Schlabach",
-      "role": "Business Development Rep ",
+      "role": "Business Development Rep",
       "imageUrl": "/cms/media/nothing-2.png"
-    },
-    {
-      "name": "Paul Vitrano",
-      "imageUrl": "/cms/media/6.png",
-      "role": "ACCOUNT EXECUTIVE"
     },
     {
       "name": "Daniel Harless",
