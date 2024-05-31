@@ -1,3 +1,4 @@
 https://support.voxo.co https://docs.voxo.co 301!
 https://portal.voxo.co/autoprovision/* https://api.voxo.co/p/:splat 301!
-/app/* https://connect.voxo.co/ 200
+/app/* https://connect.voxo.co/:splat 301!
+
