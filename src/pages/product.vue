@@ -282,7 +282,7 @@
           </a>
         </div>
       </div>
-      <iframe height="1000" class="mx-auto pt-12 w-full" src="https://isoflow.io/app/project/cknuw4pyddjjq0738cnikqcbv"></iframe>
+      <iframe class="mx-auto pt-12 w-full" src="https://link.excalidraw.com/readonly/gjzuVM3LKGnq0HXqjwPN" height="1000" style="border: none;"></iframe>
     </div>
   </div>
 </template>
