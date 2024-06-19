@@ -30,6 +30,20 @@
       </p>
 
       <h1 class="font-einabold text-2xl">
+        Contacts
+      </h1>
+      <p class="text-voxo-gray pb-6 pt-2">
+        Such as a list of contacts in the user's phone, address book, or social graph.
+      </p>
+
+      <h1 class="font-einabold text-2xl">
+        Precise Location
+      </h1>
+      <p class="text-voxo-gray pb-6 pt-2">
+        Information that describes the location of a user or device with the same or greater resolution as a latitude and longitude with three or more decimal places.
+      </p>
+
+      <h1 class="font-einabold text-2xl">
         When do we collect information?
       </h1>
       <p class="text-voxo-gray pb-6 pt-2">
